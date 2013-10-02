@@ -8,23 +8,81 @@ Author URI: http://undergeeks.com;
 Tags: powerful, cheat, sheet
 */
 
+body{
+	background: white;
+}
+
+hgroup h1{
+	margin: 0px;
+}
+
 .parallax-panel{
-	height: 400px;
+	background: #ccc;
+	height: 500px;
 	widows: 100%;
-	background: url('img/3.jpg') no-repeat top center fixed;
+	//background: url('img/6.jpg') no-repeat top center fixed;
 	background-size: cover;
 }
 
-.parallax-panel li h1{
+#scene li.img-scene{
 	text-align: center;
-	color: white;
-	padding-top: 20px;
 }
 
-#menu-menu-1{
-	padding-top: 30px;
+#scene li.btn-scene>div.row{
+	text-align: right;
+	height: 100%;
+}
+
+#scene li.btn-scene>div.row>a{
+	margin-top: 400px;
+}
+
+header{
+	height: 87px;
+}
+
+.parallax-panel li h1,.parallax-panel li h3{
+	text-align: center;
+}
+
+.parallax-panel li h1{
+	color: #fff;
+}
+
+.parallax-panel li h3{
+	padding-top: 60px;
+	color: #fff;
 }
 
 .menu-item{
-	width: 20%;
+	height: 100%;
+	padding: 31px 20px 31px 40px; 
+	min-width: 123px; 
+	transition: all .2s ease-in-out;
+	float: right;
+	margin-left: 0px !important;
+	text-align: right;
+}
+
+.menu-item a{
+	font-weight: bold;
+	color: #000;
+}
+
+#menu-menu-1{
+	height: 87px;
+}
+
+.menu-item:hover{
+	color: #fff;
+	background: #000000;
+}
+
+.menu-item:hover a{
+	color: #fff;
+}
+
+#scene li{
+	display: block;
+	padding: 20px 0;
 }
