@@ -1,0 +1,30 @@
+/*
+Theme Name: Lisder
+Theme URI: http://undergeeks.com;
+Description: Tema
+Version: 1.6
+Author: Daniel
+Author URI: http://undergeeks.com;
+Tags: powerful, cheat, sheet
+*/
+
+.parallax-panel{
+	height: 400px;
+	widows: 100%;
+	background: url('img/3.jpg') no-repeat top center fixed;
+	background-size: cover;
+}
+
+.parallax-panel li h1{
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+}
+
+#menu-menu-1{
+	padding-top: 30px;
+}
+
+.menu-item{
+	width: 20%;
+}
