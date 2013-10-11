@@ -8,56 +8,59 @@ Author URI: http://undergeeks.com;
 Tags: powerful, cheat, sheet
 */
 
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:400,700);
+
 body{
 	background: white;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans' , sans-serif !important;
+	font-weight: bold;
 }
 
 hgroup h1{
 	margin: 0px;
 }
 
-.parallax-panel{
-	background: #ccc;
-	height: 500px;
-	widows: 100%;
-	//background: url('img/6.jpg') no-repeat top center fixed;
+#scene-cont{
+	//background: #ccc;
+	height: 470px;
+	min-height: 100%;
+	//background: url('img/cream_pixels.png');
+	//background: url('img/grey.png');
+	//background: url('img/p6.png');
+	background: url('img/grid.png');
+}
+
+#scene-cont2{
+	height: 400px;
+	min-height: 100%;
+	background: url('img/4.jpg') center center no-repeat fixed;
 	background-size: cover;
 }
 
-#scene li.img-scene{
+.parallax-scene li.img-scene{
 	text-align: center;
 }
 
-#scene li.btn-scene>div.row{
+.btn-bottom{
+	margin-top: 20%;
 	text-align: right;
-	height: 100%;
-}
-
-#scene li.btn-scene>div.row>a{
-	margin-top: 400px;
 }
 
 header{
 	height: 87px;
+	font-family: 'Open Sans', sans-serif;
 }
 
-.parallax-panel li h1,.parallax-panel li h3{
-	text-align: center;
-}
-
-.parallax-panel li h1{
-	color: #fff;
-}
-
-.parallax-panel li h3{
-	padding-top: 60px;
-	color: #fff;
+.content{
+	padding: 20px 0;
 }
 
 .menu-item{
 	height: 100%;
-	padding: 31px 20px 31px 40px; 
-	min-width: 123px; 
+	padding: 31px 20px 31px 30px;
 	transition: all .2s ease-in-out;
 	float: right;
 	margin-left: 0px !important;
@@ -73,9 +76,14 @@ header{
 	height: 87px;
 }
 
+#menu-menu-1 li{
+	float: right;
+}
+
 .menu-item:hover{
 	color: #fff;
-	background: #000000;
+	background: #3090fb;
+	//background: #1388e3;
 }
 
 .menu-item:hover a{
@@ -85,4 +93,16 @@ header{
 #scene li{
 	display: block;
 	padding: 20px 0;
+}
+
+#scene2 .titles{
+	padding-top: 20px;
+}
+
+#scene2 .titles h2{
+	color: white;
+}
+
+.content p{
+	font: 1.2em/1em 'EB Garamond',serif !important;
 }

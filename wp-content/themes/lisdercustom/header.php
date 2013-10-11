@@ -24,17 +24,18 @@
 
 <body <?php body_class(); ?>>
 	<header id="" class="row" role="banner">
-		<hgroup class="large-4 columns">
+		<hgroup class="large-3 columns">
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<img src="http://www.placehold.it/155x87&text=logo" alt="">
+					<img src="<?php bloginfo('template_directory');?>/img/logo.gif" alt="">
 				</a>
 			</h1>
 			</hgroup>
 
-			<nav id="" class="large-8 columns" role="navigation">
+			<nav id="" class="large-9 columns" role="navigation">
 				<?php 
 				$defaults = array(
+					'menu'			  => 'menu-1',
 					'container'       => 'false',
 					'menu_class'      => 'inline-list menu',
 					'echo'            => true,
