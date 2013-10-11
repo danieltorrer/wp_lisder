@@ -12,8 +12,8 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width" />
-	<title><?php wp_title( '|', true, 'right' ); ?></title>
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<!--<title><?php bloginfo('name');?> <?php wp_title(); ?> </title>-->
+	<title><?php is_front_page() ? bloginfo('name') : wp_title(''); ?></title>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 <!--[if lt IE 9]>
@@ -30,23 +30,23 @@
 					<img src="<?php bloginfo('template_directory');?>/img/logo.gif" alt="">
 				</a>
 			</h1>
-			</hgroup>
+		</hgroup>
 
-			<nav id="" class="large-9 columns" role="navigation">
-				<?php 
-				$defaults = array(
-					'menu'			  => 'menu-1',
-					'container'       => 'false',
-					'menu_class'      => 'inline-list menu',
-					'echo'            => true,
-					'before'          => '',
-					'after'           => '',
-					'link_before'     => '',
-					'link_after'      => '',
-					);
-				wp_nav_menu( $defaults ); 
-				?>
-			</nav>
-		</header>
+		<nav id="" class="large-9 columns" role="navigation">
+			<?php 
+			$defaults = array(
+				'menu'			  => 'menu-1',
+				'container'       => 'false',
+				'menu_class'      => 'inline-list menu',
+				'echo'            => true,
+				'before'          => '',
+				'after'           => '',
+				'link_before'     => '',
+				'link_after'      => '',
+				);
+			wp_nav_menu( $defaults ); 
+			?>
+		</nav>
+	</header>
 
-		<div id="main" class="wrapper">
+	<div id="main" class="wrapper">

@@ -18,7 +18,7 @@ get_header();
 					<h2>Somos un laboratorio de investigación en energias renovables</h2>
 					<h3 class="subheader">Lorem ipsum dolor.</h3>
 					<div class="btn-bottom">
-						<a href="#" class="">Explora nuestros proyectos >></a>
+						<a href="nosotros" class=""><h5 class="blue">Conoce mas sobre nosotros >></h5></a>
 					</div>
 				</div>
 			</div>
@@ -31,21 +31,22 @@ get_header();
 	<div class="large-8 columns">
 		<ul data-orbit>
 			<li>
-				<img src="http://placehold.it/660x350"/>
+				<img src="http://placehold.it/660x350&text=1"/>
 				<div class="orbit-caption">3</div>
 			</li>
 			<li>
-				<img src="http://placehold.it/660x350"/>
+				<img src="http://placehold.it/660x350&text=2"/>
 				<div class="orbit-caption">2</div>
 			</li>
 			<li>
-				<img src="http://placehold.it/660x350"/>
+				<img src="http://placehold.it/660x350&text=3"/>
 				<div class="orbit-caption">1</div>
 			</li>
 		</ul>
 	</div>
 
 	<div class="large-4 columns">
+		<h2>Fugit veritatis nulla inventore eum. Velit?</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, excepturi, fugit numquam corporis voluptates asperiores molestiae vero quasi ad voluptas temporibus fuga impedit velit recusandae corrupti quidem sit libero consectetur?</p>
 	</div>
 
@@ -53,20 +54,23 @@ get_header();
 
 <div class="row content">
 	<div class="large-4 columns">
-		<img src="http://placehold.it/200x200" alt="">
+		<img src="http://placehold.it/334x200" alt="">
 		<h4>Proyecto</h4>
+		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, fuga, dolorum, obcaecati, esse aperiam cumque mollitia possimus eaque maiores.</p>
 	</div>
 
 	<div class="large-4 columns">
-		<img src="http://placehold.it/200x200" alt="">
+		<img src="http://placehold.it/334x200" alt="">
 		<h4>Proyecto</h4>
+		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, fuga, dolorum, obcaecati, esse aperiam cumque mollitia possimus eaque maiores.</p>
 	</div>
 
 	<div class="large-4 columns">
-		<img src="http://placehold.it/200x200" alt="">
+		<img src="http://placehold.it/334x200" alt="">
 		<h4>Proyecto</h4>
+		<hr>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, fuga, dolorum, obcaecati, esse aperiam cumque mollitia possimus eaque maiores.</p>
 	</div>
 </div>
