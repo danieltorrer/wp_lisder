@@ -1,6 +1,6 @@
 <?php
 /*
-Template name: proyectos
+Template name: investigacion
 */
 ?>
 <?php
@@ -70,7 +70,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-
+	
 	<div class="large-6 columns">
 		<div class="proyecto">
 			<div class="proyecto-bg">
