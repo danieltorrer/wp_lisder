@@ -138,8 +138,10 @@ p{
 
 .proyecto-content{
 	color: white;
+	//color: black;
 	height: 100%;
 	box-sizing: border-box;
+	//background: rgba(255,255,255,0.4);
 	background: rgba(0,0,0,0.2);
 	padding: 10px 15px;
 	position: absolute;
@@ -154,3 +156,27 @@ p{
 	color: white;
 }
 
+#proyecto-container{
+	margin-top: 40px;
+	height: 350px;
+	width: 100%;
+}
+
+#proyecto-container .titulo h2, #proyecto-container .descripcion, #proyecto-container .tecnologias h5{
+	color: white;
+}
+
+#proyecto-container .tecnologias{
+	margin-top: 60px;
+}
+
+.layer-proyecto{
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 350px;
+}
+
+.contenido-proyecto{
+	padding: 20px 0;
+	margin: 10px;
+}
