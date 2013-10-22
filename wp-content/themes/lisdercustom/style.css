@@ -181,3 +181,24 @@ p{
 	padding: 20px 0;
 	margin: 10px;
 }
+
+.descripcion-articulo{
+	margin-bottom: 10px;
+}
+
+.integrantes{
+	margin-top: 20px;
+}
+
+.integrante{
+	margin-top: 15px;
+}
+
+.integrante .large-4{
+	text-align: center;
+}
+
+.integrante:last-child{
+	margin-bottom: 30px;
+}
+

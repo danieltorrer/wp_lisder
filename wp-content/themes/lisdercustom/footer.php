@@ -19,6 +19,7 @@
 	<script src="<?php bloginfo('template_directory');?>/js/vendor/jquery.js"></script>
 	<script src="<?php bloginfo('template_directory');?>/js/foundation.min.js"></script>
 	<script src="<?php bloginfo('template_directory');?>/js/foundation/foundation.orbit.js"></script>
+	<script src="<?php bloginfo('template_directory');?>/js/foundation/isotope.js"></script>
 	<script src="<?php bloginfo('template_directory');?>/js/parallax.min.js"></script>
 	<script src="<?php bloginfo('template_directory');?>/js/main.js"></script>
 	<?php wp_footer(); ?>

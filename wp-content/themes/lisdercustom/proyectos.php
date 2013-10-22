@@ -15,29 +15,27 @@ get_header();
 <div class="row proyectos">
 	
 	<?php 
-	$cont = 0;
 	$args = array(
 		'post_type' => 'proyecto',
-		'posts_per_page' => 1
 		);
 
 	$the_query = new WP_Query( $args);
 	?>
 	<?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); 
 	?>
-		<div class="large-6 columns">
-			<div class="proyecto">
-				<div class="proyecto-bg">
-					<?php $url = wp_get_attachment_image_src( get_post_thumbnail_id(),'proyectos' ); ?>
-					<img src="<?php echo $url[0]?>" alt="">
-				</div>
-				<div class="proyecto-content">
-					<h4> <?php the_title()?> </h4>
-					<?php the_excerpt() ?>
-					<a class="button small right" href="<?php the_permalink() ?>">Ver proyecto</a>
-				</div>
+	<div class="large-6 columns">
+		<div class="proyecto">
+			<div class="proyecto-bg">
+				<?php $url = wp_get_attachment_image_src( get_post_thumbnail_id(),'proyectos' ); ?>
+				<img src="<?php echo $url[0]?>" alt="">
+			</div>
+			<div class="proyecto-content">
+				<h4> <?php the_title()?> </h4>
+				<?php the_excerpt() ?>
+				<a class="button small right" href="<?php the_permalink() ?>">Ver proyecto</a>
 			</div>
 		</div>
+	</div>
 
 
 	<?php endwhile; else: 

@@ -6,4 +6,11 @@ $(document).ready(function(){
 		bullets: false,
 		timer: true
 	});
+
+	$(".publicacion-tax .wp-tag-cloud li a").attr("href","#");
+
+	$(".publicacion-tax .wp-tag-cloud li a").click(function(event){
+		event.preventDefault();
+		
+	})
 })
