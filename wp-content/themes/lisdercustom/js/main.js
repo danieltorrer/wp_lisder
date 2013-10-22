@@ -7,10 +7,21 @@ $(document).ready(function(){
 		timer: true
 	});
 
-	$(".publicacion-tax .wp-tag-cloud li a").attr("href","#");
+
+	var $container = $('.isotope-container');
+
+	$container.isotope({
+
+	});
+
+	$(".publicacion-tax .wp-tag-cloud li a").attr("href","#")
 
 	$(".publicacion-tax .wp-tag-cloud li a").click(function(event){
 		event.preventDefault();
-		
+		$(this).attr("data-filter", $(this).text().replace(" ","_"))
+		var selector = $(this).attr('data-filter');
+		$container.isotope({ filter: selector });
+		return false;
+
 	})
 })

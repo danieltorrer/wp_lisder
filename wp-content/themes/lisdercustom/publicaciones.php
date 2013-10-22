@@ -30,7 +30,7 @@ $the_query = new WP_Query( $args);
 		<?php wp_tag_cloud( array( 'taxonomy' => 'revista', format => 'list' ) ); ?>
 	</div>
 
-	<div class="large-9 columns">
+	<div class="large-9 columns isotope-container">
 		
 		<?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); 
 		?>
