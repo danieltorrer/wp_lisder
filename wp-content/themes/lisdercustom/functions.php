@@ -32,6 +32,24 @@ function theme_js(){
 
 }
 
+function simple_fecha() {
+	global $post;
+	$terms = get_the_terms($post->ID,'fecha','',' ','');
+	$terms = array_map('_simple_cb', $terms);
+	return implode(', ', $terms);
+}   
+
+function simple_revista() {
+	global $post;
+	$terms = get_the_terms($post->ID,'revista','',' ','');
+	$terms = array_map('_simple_cb', $terms);
+	return implode(', ', $terms);
+}   
+
+function _simple_cb($t) {
+	return $t->name;
+}
+
 add_action('wp_enqueue_scripts',"theme_styles");
 add_action('wp_enqueue_scripts',"theme_js");
 

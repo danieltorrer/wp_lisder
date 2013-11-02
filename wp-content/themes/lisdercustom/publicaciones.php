@@ -35,8 +35,7 @@ $the_query = new WP_Query( $args);
 		<?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); 
 		?>
 		<div class="row">
-			<!--<div class="large-4 columns"> <?php the_post_thumbnail( $size = 'post-thumbnail', $attr = '' ) ?> </div>-->
-			<div class='large-12 columns descripcion-articulo' data-filter='<?php
+			<!--<div class='large-12 columns descripcion-articulo' data-filter='<?php
 
 			$terms = get_terms("fecha");
 			$count = count($terms);
@@ -58,48 +57,28 @@ $the_query = new WP_Query( $args);
 					}
 
 				}
-				?>'>
-			<h3> <?php the_title()?> </h3>
-			<?php the_content() ?>
-			<!--<p class="subheader"><?php echo get("autores") ?></p>-->
-			<small>Año: <cite> 
-				<?php
+				?>'>-->
 
-				$terms = get_terms("fecha");
-				$count = count($terms);
-				if ( $count > 0 ){
+				<div class="large-12 columns descripcion-articulo" data-filter='<?php echo simple_fecha();?> <? echo simple_revista(); ?> '>
 
-					foreach ( $terms as $term ) {
-						echo $term->name;
-					}
 
-				}
-				?>
-			</cite></small>
-			<br>
-			<small>Revista: <cite> 
-				<?php
+					<h3> <?php the_title()?> </h3>
+					<?php the_content() ?>
+					<!--<p class="subheader"><?php echo get("autores") ?></p>-->
+					<small>Año: <cite><?php echo simple_fecha();?></cite></small>
+					<br>
+					<small>Revista: <cite><? echo simple_revista(); ?></cite></small>
+			
+			</div>
 
-				$terms = get_terms("revista");
-				$count = count($terms);
-				if ( $count > 0 ){
-
-					foreach ( $terms as $term ) {
-						echo $term->name;
-					}
-
-				}
-				?>
-			</cite></small>
 		</div>
-	</div>
-	<hr>
+		<hr>
 
-	<?php endwhile; else: 
-	?>
-	<?php endif; 
-	?>
-</div>
+		<?php endwhile; else: 
+		?>
+		<?php endif; 
+		?>
+	</div>
 </div>
 
 
