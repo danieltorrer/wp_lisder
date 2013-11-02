@@ -22,11 +22,17 @@ $the_query = new WP_Query( $args);
 	<div class="large-3 columns publicacion-tax">
 
 		<h5>Años</h5>
+		<ul class="show-all">
+			<li><a href="#" data-filter="*">Todos</a></li>
+		</ul>
 		<?php wp_tag_cloud ( array( 'taxonomy' => 'fecha', format => 'list')); ?>
 
 		<br><br>
 
 		<h5>Revistas</h5>
+			<ul class="show-all">
+				<li ><a href="#" data-filter="*">Todas</a></li>
+			</ul>
 		<?php wp_tag_cloud( array( 'taxonomy' => 'revista', format => 'list' ) ); ?>
 	</div>
 

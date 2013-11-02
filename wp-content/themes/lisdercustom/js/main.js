@@ -16,13 +16,14 @@ $(document).ready(function(){
 
 	$(".publicacion-tax .wp-tag-cloud li a").attr("href","#")
 
+	$(".show-all li a").click(function(event){
+		event.preventDefault();
+		$container.isotope({ filter: $(this).attr("data-filter") });
+		return false;
+	})
+
 	$(".publicacion-tax .wp-tag-cloud li a").click(function(event){
 		event.preventDefault();
-		
-		//$(this).attr("data-filter")
-		//var selector = $(this).attr('data-filter');
-		console.log("." + $(this).text().replace(" ","_"))
-		
 		$container.isotope({ filter: "." + $(this).text().replace(" ","_") });
 		return false;
 	})

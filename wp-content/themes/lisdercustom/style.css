@@ -25,7 +25,7 @@ hgroup h1{
 }
 
 #main{
-	height: calc(100% - 260px);
+	min-height: calc(100% - 260px);
 }
 
 #scene-cont{
@@ -206,6 +206,19 @@ p{
 
 .integrante:last-child{
 	margin-bottom: 30px;
+}
+
+.publicacion-tax .wp-tag-cloud li a, .show-all li a{
+	font-size: 14px !important;
+}
+
+.publicacion-tax .wp-tag-cloud li, .show-all li{
+	list-style: none;
+	padding-left: 15px;
+}
+
+.show-all{
+	margin-bottom: 0px;
 }
 
 .isotope-item {
