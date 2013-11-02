@@ -10,7 +10,8 @@ Tags: powerful, cheat, sheet
 
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:400,700);
 
-body{
+body,html{
+	height: 100%;
 	background: white;
 }
 
@@ -21,6 +22,10 @@ h1,h2,h3,h4,h5,h6{
 
 hgroup h1{
 	margin: 0px;
+}
+
+#main{
+	height: calc(100% - 260px);
 }
 
 #scene-cont{
@@ -184,6 +189,7 @@ p{
 
 .descripcion-articulo{
 	margin-bottom: 10px;
+	width: 100%;
 }
 
 .integrantes{
@@ -202,13 +208,49 @@ p{
 	margin-bottom: 30px;
 }
 
-
 .isotope-item {
-  z-index: 2;
+	z-index: 2;
 }
 
 .isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
+	pointer-events: none;
+	z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
 }
 
