@@ -15,67 +15,36 @@ get_header();
 	
 
 	<div class="large-12 columns integrantes">
+
+		<?php 
+		$args = array(
+			'post_type' => 'integrante',
+			);
+
+		$the_query = new WP_Query( $args);
+		?>
+		<?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); 
+		?>
+		
 		<div class="integrante">
 			<div class="row">
 				<div class="large-4 columns">
-					<img src="http://placehold.it/150x150" alt="">
+					<?php the_post_thumbnail( "thumbnail", $attr = '' ) ?>
 				</div>
 				<div class="large-8 columns">
-					<h4>Lorem Impsum</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, dolor, dolore, neque provident saepe adipisci ab aspernatur animi libero porro optio sed quaerat! Voluptatum, mollitia obcaecati quos fugit illo sapiente.</p>
+					<h4><?php the_title(  ) ?></h4>
+					<?php the_content(  ); ?>	
 				</div>
 			</div>
 		</div>
 
-		<div class="integrante">
-			<div class="row">
-				<div class="large-4 columns">
-					<img src="http://placehold.it/150x150" alt="">
-				</div>
-				<div class="large-8 columns">
-					<h4>Lorem Impsum</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, dolor, dolore, neque provident saepe adipisci ab aspernatur animi libero porro optio sed quaerat! Voluptatum, mollitia obcaecati quos fugit illo sapiente.</p>
-				</div>
-			</div>
-		</div>
+		<?php endwhile; else: 
+		?>
+		<?php endif; 
+		?>
 
-		<div class="integrante">
-			<div class="row">
-				<div class="large-4 columns">
-					<img src="http://placehold.it/150x150" alt="">
-				</div>
-				<div class="large-8 columns">
-					<h4>Lorem Impsum</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, dolor, dolore, neque provident saepe adipisci ab aspernatur animi libero porro optio sed quaerat! Voluptatum, mollitia obcaecati quos fugit illo sapiente.</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="integrante">
-			<div class="row">
-				<div class="large-4 columns">
-					<img src="http://placehold.it/150x150" alt="">
-				</div>
-				<div class="large-8 columns">
-					<h4>Lorem Impsum</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, dolor, dolore, neque provident saepe adipisci ab aspernatur animi libero porro optio sed quaerat! Voluptatum, mollitia obcaecati quos fugit illo sapiente.</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="integrante">
-			
-			<div class="row">
-				<div class="large-4 columns">
-					<img src="http://placehold.it/150x150" alt="">
-				</div>
-				<div class="large-8 columns">
-					<h4>Lorem Impsum</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, dolor, dolore, neque provident saepe adipisci ab aspernatur animi libero porro optio sed quaerat! Voluptatum, mollitia obcaecati quos fugit illo sapiente.</p>
-				</div>
-			</div>
-		</div>
 	</div>
+	
 </div>
 
 <?php 
