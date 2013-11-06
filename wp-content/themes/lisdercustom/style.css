@@ -55,7 +55,7 @@ hgroup h1{
 }
 
 header{
-	height: 87px;
+	height: 120px;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -65,16 +65,20 @@ header{
 
 .menu-item{
 	height: 100%;
-	padding: 31px 20px 31px 30px;
+	padding: 45px 20px 51px 30px;
 	transition: all .2s ease-in-out;
 	float: right;
 	margin-left: 0px !important;
 	text-align: right;
 }
 
+.site-title img{
+	margin-top: 5px; 
+}
+
 .menu-item a{
 	height: 100%;
-	height: 87px;
+	height: 120px;
 }
 
 .menu-item a{
@@ -83,7 +87,7 @@ header{
 }
 
 #menu-menu-1{
-	height: 87px;
+	height: 120px;
 }
 
 #menu-menu-1 li{
@@ -168,12 +172,24 @@ p{
 	width: 100%;
 }
 
+.entrada-container{
+	height: 300px !important;
+}
+
+.entrada-container .layer-proyecto{
+	height: 300px !important;
+}
+
 #proyecto-container .titulo h2, #proyecto-container .descripcion, #proyecto-container .tecnologias h5{
 	color: white;
 }
 
 #proyecto-container .tecnologias{
 	margin-top: 60px;
+}
+
+.descripcion h5.date{
+	color: white;
 }
 
 .layer-proyecto{
@@ -230,9 +246,11 @@ p{
 	z-index: 1;
 }
 
-.entrada{
-	
+.resumen{
+	font-size: 14px;
 }
+
+
 
 /*********/
 

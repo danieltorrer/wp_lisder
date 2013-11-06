@@ -27,7 +27,7 @@
 		<hgroup class="large-3 columns">
 			<h1 class="site-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<img src="<?php bloginfo('template_directory');?>/img/logo.gif" alt="">
+					<img src="<?php bloginfo('template_directory');?>/img/LISDER.png" alt="">
 				</a>
 			</h1>
 		</hgroup>
