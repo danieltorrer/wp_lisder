@@ -15,7 +15,7 @@ if (function_exists('add_theme_support')) { add_theme_support('post-thumbnails')
 //Enable custom menus
 add_theme_support( "menus" );
 add_image_size( "proyectos", 470, 264, true);
-
+add_image_size( "entrada", 637, 350, true);
 
 
 function theme_styles(){

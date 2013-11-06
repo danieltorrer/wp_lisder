@@ -27,21 +27,31 @@ get_header();
 </div>
 
 <div class="row content">
-
 	<div class="large-8 columns">
 		<ul data-orbit>
-			<li>
-				<img src="http://placehold.it/660x350&text=1"/>
-				<div class="orbit-caption">3</div>
-			</li>
-			<li>
-				<img src="http://placehold.it/660x350&text=2"/>
-				<div class="orbit-caption">2</div>
-			</li>
-			<li>
-				<img src="http://placehold.it/660x350&text=3"/>
-				<div class="orbit-caption">1</div>
-			</li>
+			<?php
+
+			$args = array(
+				'numberposts' => 3,
+				'orderby' => 'post_date',
+				'order' => 'DESC',
+				'post_type' => 'entrada'
+				);
+
+			$recent_posts = wp_get_recent_posts( $args );
+
+			//$recent_posts = wp_get_recent_posts();
+			foreach( $recent_posts as $recent ){
+				?>
+				<li>
+					<a href="<?php echo get_permalink($recent['ID']); ?>"> <?php echo get_the_post_thumbnail( $recent["ID"], "entrada", ""); ?> </a>
+					
+					<div class="orbit-caption"><?php echo $recent["post_title"]; ?></div>
+				</li>
+				<?php
+			}
+			?>
+
 		</ul>
 	</div>
 
@@ -51,6 +61,23 @@ get_header();
 	</div>
 
 </div>
+
+
+<!--
+<li>
+	<img src="http://placehold.it/660x350&text=1"/>
+	<div class="orbit-caption">3</div>
+</li>
+<li>
+	<img src="http://placehold.it/660x350&text=2"/>
+	<div class="orbit-caption">2</div>
+</li>
+<li>
+	<img src="http://placehold.it/660x350&text=3"/>
+	<div class="orbit-caption">1</div>
+</li>
+
+-->
 
 <div class="row content">
 	<div class="large-4 columns">
