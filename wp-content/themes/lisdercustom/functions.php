@@ -16,6 +16,7 @@ if (function_exists('add_theme_support')) { add_theme_support('post-thumbnails')
 add_theme_support( "menus" );
 add_image_size( "proyectos", 470, 264, true);
 add_image_size( "entrada", 637, 350, true);
+add_image_size( "proyectos_square", 303, 303, true );
 
 
 function theme_styles(){

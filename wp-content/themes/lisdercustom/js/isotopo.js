@@ -1,11 +1,4 @@
 $(document).ready(function(){
-	$('#scene').parallax();
-	$('#scene2').parallax();
-	$(document).foundation('orbit',{
-		slide_number: false,
-		bullets: false,
-		timer: true
-	});
 
 	var $container = $('.isotope-container');
 
@@ -24,7 +17,8 @@ $(document).ready(function(){
 
 	$(".publicacion-tax .wp-tag-cloud li a").click(function(event){
 		event.preventDefault();
-		$container.isotope({ filter: "." + $(this).text().replace(" ","_") });
+		console.log($(this).text().replace(" ","_"))
+		$container.isotope({ filter: "." + $(this).text().split(" ").join("_") });
 		return false;
 	})
 })
