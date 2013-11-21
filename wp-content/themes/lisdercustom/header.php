@@ -6,7 +6,7 @@
 <html class="ie ie8" <?php language_attributes(); ?>>
 <![endif]-->
 <!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> style="height: 100%;">
 <!--<![endif]-->
 
 <head>
@@ -22,7 +22,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body style="height: 100%;">
 	<header id="" class="row" role="banner">
 		<hgroup class="large-3 columns">
 			<h1 class="site-title">

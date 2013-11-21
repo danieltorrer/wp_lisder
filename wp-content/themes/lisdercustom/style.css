@@ -10,14 +10,17 @@ Tags: powerful, cheat, sheet
 
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:400,700);
 
-body,html{
+*{
+	box-sizing: border-box;
+}
+
+html,body{
 	height: 100%;
-	background: white;
 }
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Open Sans' , sans-serif !important;
-	font-weight: bold;
+	//font-weight: bold;
 }
 
 hgroup h1{
@@ -25,29 +28,49 @@ hgroup h1{
 }
 
 #main{
-	min-height: calc(100% - 260px);
+	width: 100%;
+	overflow-x: hidden;
 }
 
 #scene-cont{
-	//background: #ccc;
-	height: 470px;
-	min-height: 100%;
-	
 	background: url('img/noisy_grid.png');
-	//background: url('img/grey_wash_wall.png');
-	//background: url('img/hoffman.png');
+	height: 600px;
+}
+
+#scene {
+	padding-top: 50px;
 }
 
 #scene-cont2{
-	height: 500px;
+	height: 550px;
 	min-height: 100%;
-	background: url('img/4.jpg') center center no-repeat fixed;
+	background: none center center no-repeat fixed;
 	background-size: cover;
+	background: #3D5A7B;
+}
+
+#scene-cont2>.row{
+	position: absolute;
+	z-index: 1000;
+	display: inline;
+}
+
+#scene-cont2>.row>h2{
+	width: auto;
+}
+
+.gmnoprint{
+	display: none;
 }
 
 #mapa{
 	height: 100%;
 	width: 100%;
+}
+
+#mapa img{
+	max-width: none;
+	
 }
 
 .parallax-scene li.img-scene{
@@ -62,19 +85,25 @@ hgroup h1{
 header{
 	height: 120px;
 	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0px;
 }
 
 .content{
 	padding: 40px 0;
 }
 
+.content h2{
+	text-shadow: 1px 1px 1px white;
+}
+
 .menu-item{
 	height: 100%;
-	padding: 45px 20px 51px 30px;
+	//padding: 45px 20px 51px 30px;
 	transition: all .2s ease-in-out;
 	float: right;
 	margin-left: 0px !important;
 	text-align: right;
+	box-sizing: border-box;
 }
 
 .site-title img{
@@ -82,16 +111,17 @@ header{
 }
 
 .menu-item a{
-	height: 100%;
+	min-width: 106px;
+	//height: 100%;
+	box-sizing: border-box;
 	height: 120px;
-}
-
-.menu-item a{
-	font-weight: bold;
+	padding: 45px 20px 51px 30px;
+	//font-weight: bold;
 	color: #000;
 }
 
 #menu-menu-1{
+	margin-bottom: 0px;
 	height: 120px;
 }
 
@@ -101,12 +131,19 @@ header{
 
 .menu-item:hover{
 	color: #fff;
-	background: #3090fb;
-	//background: #1388e3;
+	//background: #165FB2;
+	background: #53A3FF;
 }
 
 .menu-item:hover a{
 	color: #fff;
+	padding: 45px 20px 51px 30px;
+}
+
+.noticias{
+	min-height: 100%;
+	height: 100%;
+	//background: #CC881A;
 }
 
 #scene li{
@@ -118,15 +155,31 @@ header{
 	padding-top: 20px;
 }
 
+footer{
+	margin-top: 0px;
+	border-top: 1px solid #bbb;
+	background: #53A3FF;
+	//background: #4282CC;
+}
+
 footer>.row>.large-12>div{
-	background: #bbb;
-	margin-top: 20px;
+	//background: #3090fb;
 	padding: 20px 20px;
 	text-align: center;
 }
 
-footer>.row>.large-12>div img{
+footer>.row>.large-12>div>img{
 	margin: 0px 15px;
+	height: 80px;
+}
+
+footer>.row>.large-12>div>.social{
+	height: auto;
+	text-align:center;
+}
+
+footer>.row>.large-12>div>.social>a>img{
+	margin-left: 15px;
 }
 
 .copyright{
@@ -256,6 +309,16 @@ p{
 }
 
 
+.separador{
+	height: 30px;
+	background: #3D5A7B;
+}
+
+.button{
+	box-shadow: none;
+	transition: none;
+	background-color: #53A3FF;
+}
 
 /*********/
 
@@ -296,3 +359,44 @@ p{
 	transition-duration: 0s;
 }
 
+/************************/
+
+/* Effect 1: Brackets */
+nav .cl-effect-1 a::before,
+nav .cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+nav .cl-effect-1 a::before {
+	padding-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+nav .cl-effect-1 a::after {
+	padding-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+nav .cl-effect-1 a:hover::before,
+nav .cl-effect-1 a:hover::after,
+nav .cl-effect-1 a:focus::before,
+nav .cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.layer.titles>.row>.large-12>h2{
+	text-align: center;
+}
