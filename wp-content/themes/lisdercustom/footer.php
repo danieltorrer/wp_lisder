@@ -24,7 +24,7 @@
 
 	<script src="<?php bloginfo('template_directory');?>/js/vendor/jquery.js"></script>
 	<script src="<?php bloginfo('template_directory');?>/js/foundation.min.js"></script>
-	<script src="<?php bloginfo('template_directory');?>/js/main.js ?>"></script>
+	<!--<script src="<?php bloginfo('template_directory');?>/js/main.js ?>"></script>-->
 	<?php 
 	if(is_front_page()){
 		?>
