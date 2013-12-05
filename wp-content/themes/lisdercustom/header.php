@@ -23,30 +23,32 @@
 </head>
 
 <body style="height: 100%;">
-	<header id="" class="row" role="banner">
-		<hgroup class="large-3 columns">
-			<h1 class="site-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<img src="<?php bloginfo('template_directory');?>/img/LISDER.png" alt="">
-				</a>
-			</h1>
-		</hgroup>
-
-		<nav id="" class="large-9 columns" role="navigation">
-			<?php 
-			$defaults = array(
-				'menu'			  => 'menu-1',
-				'container'       => 'false',
-				'menu_class'      => 'inline-list menu',
-				'echo'            => true,
-				'before'          => '',
-				'after'           => '',
-				'link_before'     => '',
-				'link_after'      => '',
-				);
-			wp_nav_menu( $defaults ); 
-			?>
-		</nav>
+	<header id="header">
+		<div class="row" role="banner">
+			<hgroup class="large-2 columns">
+				<h1 class="site-title">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+						<img src="<?php bloginfo('template_directory');?>/img/LISDER.png" alt="">
+					</a>
+				</h1>
+			</hgroup>
+			
+			<nav id="" class="large-10 columns" role="navigation">
+				<?php 
+				$defaults = array(
+					'menu'			  => 'menu-1',
+					'container'       => 'false',
+					'menu_class'      => 'inline-list menu',
+					'echo'            => true,
+					'before'          => '',
+					'after'           => '',
+					'link_before'     => '',
+					'link_after'      => '',
+					);
+				wp_nav_menu( $defaults ); 
+				?>
+			</nav>
+		</div>
 	</header>
 
-	<div id="main" class="wrapper">
+	<!--<div id="main" class="wrapper">-->

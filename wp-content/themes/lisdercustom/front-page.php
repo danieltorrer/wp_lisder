@@ -1,37 +1,22 @@
 <?php
 get_header();
 ?>
-<div id="scene-cont">
-	<ul id="scene" class="parallax-scene">
-		
-		<li class="layer img-scene" data-depth="0.9"><img src="<?php bloginfo('template_directory');?>/img/l1.png" alt=""></li>
-		<li class="layer img-scene" data-depth="0.8"><img src="<?php bloginfo('template_directory');?>/img/l4.png" alt=""></li>
-		<li class="layer img-scene" data-depth="0.4"><img src="<?php bloginfo('template_directory');?>/img/l5.png" alt=""></li>
-		<li class="layer img-scene" data-depth="0.5"><img src="<?php bloginfo('template_directory');?>/img/l6.png" alt=""></li>
-		<li class="layer img-scene" data-depth="0.6"><img src="<?php bloginfo('template_directory');?>/img/l7.png" alt=""></li>
-		<li class="layer img-scene" data-depth="0.6"><img src="<?php bloginfo('template_directory');?>/img/l8.png" alt=""></li>
-		<li class="layer img-scene" data-depth="0.3"><img src="<?php bloginfo('template_directory');?>/img/l9.png" alt=""></li>
-		
-		<li class="layer titles">
-			<div class="row">
-				<div class="large-12 columns">
-					<h2>Somos un laboratorio de investigación en energias renovables</h2>
-					<!--<h3 class="subheader">Lorem ipsum dolor.</h3>-->
-					<div class="btn-bottom">
-						<a href="nosotros" class=""><h5 class="blue">Más sobre nosotros >></h5></a>
-					</div>
-				</div>
-			</div>
-		</li>
-	</ul>
+<div id="mapa">
 </div>
 
-<div class="noticias">
-	<div class="row content">
-		<div class="large-12 columns">
-			<h2>Ultimas noticias</h2>
-		</div>
-		<div class="large-8 columns">
+<div style="background: none; position: fixed; top: calc(100% - 50px); height: auto; left: calc(50% - 14px); z-index: 1000;">
+	<a href="#feed" id="down"><img src="<?php bloginfo('template_directory');?>/img/down_b.png" alt=""></a>
+</div>
+
+<div id="feed" style="position:relative;">
+	<!--<div style="background: none; position: absolute; top: 10px; height: auto; left: calc(50% - 14px);">
+		<a href="#header">
+			<img src="<?php bloginfo('template_directory');?>/img/up_b.png" alt="">
+		</a>
+	</div>-->
+	<div class="row">
+		<div class="large-8 columns slideshow-wrapper">
+			<div class="preloader"></div>
 			<ul data-orbit>
 				<?php
 
@@ -61,22 +46,14 @@ get_header();
 
 		<div class="large-4 columns">
 			<h5>Utimas publicaciones</h5>
-			
+
 		</div>
 	</div>
+	<!--<div style="background: none; position: absolute; top: calc(100% - 50px); height: auto; left: calc(50% - 14px);">
+		<a href="#feed"><img src="<?php bloginfo('template_directory');?>/img/down_b.png" alt=""></a>
+	</div>-->
 </div>
 
-<div id="scene-cont2" style="position: relative;">
-	<div id="mapa"></div>
-	<div class="row" style="position: absolute; top: 15px;">
-		<div class="large-8 large-centered columns">
-			<div class="texto">
-					<h3>Proyectos alrededor del mundo</h3>
-				</div>
-			</div>
-	</div>
-	
-</div>
 <?php 
 get_footer(); 
 ?>

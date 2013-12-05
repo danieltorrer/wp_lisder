@@ -26,11 +26,6 @@ function theme_styles(){
 }
 
 function theme_js(){
-	//wp_register_script("jquery", get_template_directory_uri() . "./js/jquery.js", "", "", true);
-	//wp_register_script("foundation", get_template_directory_uri() . "./js/foundation.js",array(), "", true);
-	//wp_enqueue_scripts("jquery");
-	//wp_enqueue_scripts("foundation");
-
 }
 
 function simple_fecha() {

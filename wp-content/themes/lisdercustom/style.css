@@ -10,160 +10,78 @@ Tags: powerful, cheat, sheet
 
 @import url(http://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:400,700);
 
-*{
-	box-sizing: border-box;
-}
-
 html,body{
 	height: 100%;
 }
 
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Open Sans' , sans-serif !important;
-	//font-weight: bold;
 }
 
 hgroup h1{
 	margin: 0px;
 }
 
-#main{
-	width: 100%;
-	overflow-x: hidden;
+p{
+	font: 1.2em/1.2em 'EB Garamond',serif !important;
 }
 
-#scene-cont{
-	background: url('img/noisy_grid.png');
-	height: 600px;
-}
-
-#scene {
-	padding-top: 50px;
-}
-
-#scene-cont2{
-	height: 550px;
-	min-height: 100%;
-	background: none center center no-repeat fixed;
-	background-size: cover;
-	background: #3D5A7B;
-}
-
-#scene-cont2>.row{
-	position: absolute;
-	z-index: 1000;
-	display: inline;
-}
-
-#scene-cont2>.row>h2{
-	width: auto;
-}
-
-.gmnoprint{
-	display: none;
-}
-
-#mapa{
-	height: 100%;
-	width: 100%;
-}
-
-#mapa img{
-	max-width: none;
-	
-}
-
-.parallax-scene li.img-scene{
-	text-align: center;
-}
-
-.btn-bottom{
-	margin-top: 20%;
-	text-align: right;
-}
-
+/* header */
 header{
-	height: 120px;
+	height: 90px;
 	font-family: 'Open Sans', sans-serif;
 	margin-bottom: 0px;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
 }
 
-.content{
-	padding: 40px 0;
+header .site-title img{
+	margin-top: 5px; 
 }
 
-.content h2{
-	text-shadow: 1px 1px 1px white;
+/* nav*/
+
+#menu-menu-1{
+	margin-bottom: 0px;
+	height:90px;
 }
 
 .menu-item{
-	height: 100%;
-	//padding: 45px 20px 51px 30px;
-	transition: all .2s ease-in-out;
 	float: right;
 	margin-left: 0px !important;
 	text-align: right;
 	box-sizing: border-box;
-}
-
-.site-title img{
-	margin-top: 5px; 
+	padding-top: 15px;
+	height: 100%;
 }
 
 .menu-item a{
-	min-width: 106px;
-	//height: 100%;
+	transition: all .2s ease-in-out;
 	box-sizing: border-box;
-	height: 120px;
-	padding: 45px 20px 51px 30px;
-	//font-weight: bold;
+	height: 50px;
+	padding: 20px 20px 45px 20px;
 	color: #000;
 }
 
-#menu-menu-1{
-	margin-bottom: 0px;
-	height: 120px;
+.menu-item>a:hover{
+	background: #53A3FF;
+	color: #fff;
 }
 
 #menu-menu-1 li{
 	float: right;
 }
 
-.menu-item:hover{
-	color: #fff;
-	//background: #165FB2;
-	background: #53A3FF;
-}
-
-.menu-item:hover a{
-	color: #fff;
-	padding: 45px 20px 51px 30px;
-}
-
-.noticias{
-	min-height: 100%;
-	height: 100%;
-	//background: #CC881A;
-}
-
-#scene li{
-	display: block;
-	padding: 20px 0;
-}
-
-#scene2 .titles{
-	padding-top: 20px;
-}
+/*footer*/
 
 footer{
-	margin-top: 0px;
+	margin: 0px;
 	border-top: 1px solid #bbb;
-	background: #53A3FF;
-	//background: #4282CC;
+	//background: #53A3FF;
+	background: black;
 }
 
 footer>.row>.large-12>div{
-	//background: #3090fb;
 	padding: 20px 20px;
 	text-align: center;
 }
@@ -182,16 +100,64 @@ footer>.row>.large-12>div>.social>a>img{
 	margin-left: 15px;
 }
 
-.copyright{
+footer .copyright{
 	margin-top: 20px;
 }
 
-#scene2 .titles h2{
-	color: white;
+/* main */
+
+.ocultar{
+	display: none;
 }
 
-p{
-	font: 1.2em/1.2em 'EB Garamond',serif !important;
+#feed{
+	min-height: 600px;
+	height: 100%;
+	background-color: white;
+	padding-top: 50px;
+}
+
+#main{
+	height: calc(100% - 90px);
+}
+
+#scene-cont{
+	background: url('img/noisy_grid.png');
+	height: 600px;
+}
+
+#scene {
+	padding-top: 50px;
+}
+
+#mapa{
+	height: calc(100% - 90px);
+	width: 100%;
+	position: relative;
+}
+
+#mapa img{
+	max-width: none;
+}
+
+#mapa>div{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.parallax-scene li.img-scene{
+	text-align: center;
+}
+
+.btn-bottom{
+	margin-top: 20%;
+	text-align: right;
+}
+
+#scene li{
+	display: block;
+	padding: 20px 0;
 }
 
 .blue{
@@ -295,19 +261,9 @@ p{
 	margin-bottom: 0px;
 }
 
-.isotope-item {
-	z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-	pointer-events: none;
-	z-index: 1;
-}
-
 .resumen{
 	font-size: 14px;
 }
-
 
 .separador{
 	height: 30px;
@@ -321,6 +277,15 @@ p{
 }
 
 /*********/
+
+.isotope-item {
+	z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+}
 
 .isotope,
 .isotope .isotope-item {
@@ -359,44 +324,10 @@ p{
 	transition-duration: 0s;
 }
 
-/************************/
-
-/* Effect 1: Brackets */
-nav .cl-effect-1 a::before,
-nav .cl-effect-1 a::after {
-	display: inline-block;
-	opacity: 0;
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
-	transition: transform 0.3s, opacity 0.2s;
-}
-
-nav .cl-effect-1 a::before {
-	padding-right: 10px;
-	content: '[';
-	-webkit-transform: translateX(20px);
-	-moz-transform: translateX(20px);
-	transform: translateX(20px);
-}
-
-nav .cl-effect-1 a::after {
-	padding-left: 10px;
-	content: ']';
-	-webkit-transform: translateX(-20px);
-	-moz-transform: translateX(-20px);
-	transform: translateX(-20px);
-}
-
-nav .cl-effect-1 a:hover::before,
-nav .cl-effect-1 a:hover::after,
-nav .cl-effect-1 a:focus::before,
-nav .cl-effect-1 a:focus::after {
-	opacity: 1;
-	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
-	transform: translateX(0px);
-}
-
 .layer.titles>.row>.large-12>h2{
 	text-align: center;
+}
+
+.slideshow-wrapper{
+	min-height: 637px;
 }

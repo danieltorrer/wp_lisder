@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.6.1" created="2013-10-22 05:14" -->
+<!-- generator="WordPress/3.7.1" created="2013-11-22 01:27" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -28,8 +28,8 @@
 <channel>
 	<title>LISDER</title>
 	<link>http://localhost/wp_lisder</link>
-	<description></description>
-	<pubDate>Tue, 22 Oct 2013 05:14:11 +0000</pubDate>
+	<description>Otro sitio realizado con WordPress</description>
+	<pubDate>Fri, 22 Nov 2013 01:27:25 +0000</pubDate>
 	<language>es-ES</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/wp_lisder</wp:base_site_url>
@@ -37,184 +37,33 @@
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>admin</wp:author_login><wp:author_email>daniel.torrer@gmail.com</wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
-	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>2009</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[2009]]></wp:cat_name></wp:category>
-	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>renovables</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Energias Renovables]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>2</wp:term_id><wp:category_nicename>2009</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[2009]]></wp:cat_name></wp:category>
+	<wp:category><wp:term_id>3</wp:term_id><wp:category_nicename>renovables</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Energias Renovables]]></wp:cat_name></wp:category>
 	<wp:category><wp:term_id>4</wp:term_id><wp:category_nicename>revista-electrica</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Revista Electrica]]></wp:cat_name></wp:category>
-	<wp:term><wp:term_id>3</wp:term_id><wp:term_taxonomy>fecha</wp:term_taxonomy><wp:term_slug>2009</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[2009]]></wp:term_name></wp:term>
+	<wp:category><wp:term_id>1</wp:term_id><wp:category_nicename>sin-categoria</wp:category_nicename><wp:category_parent></wp:category_parent><wp:cat_name><![CDATA[Sin categoría]]></wp:cat_name></wp:category>
+	<wp:term><wp:term_id>2</wp:term_id><wp:term_taxonomy>fecha</wp:term_taxonomy><wp:term_slug>2009</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[2009]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>8</wp:term_id><wp:term_taxonomy>fecha</wp:term_taxonomy><wp:term_slug>2013</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[2013]]></wp:term_name></wp:term>
 	<wp:term><wp:term_id>5</wp:term_id><wp:term_taxonomy>revista</wp:term_taxonomy><wp:term_slug>revista-electronica</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[Revista Electronica]]></wp:term_name></wp:term>
-	<wp:term><wp:term_id>2</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>menu-1</wp:term_slug><wp:term_name><![CDATA[menu-1]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>7</wp:term_id><wp:term_taxonomy>revista</wp:term_taxonomy><wp:term_slug>revista-mexicana-de-aviacion</wp:term_slug><wp:term_parent></wp:term_parent><wp:term_name><![CDATA[Revista Mexicana de Aviacion]]></wp:term_name></wp:term>
+	<wp:term><wp:term_id>6</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug>menu-1</wp:term_slug><wp:term_name><![CDATA[menu-1]]></wp:term_name></wp:term>
 
-	<generator>http://wordpress.org/?v=3.6.1</generator>
+	<generator>http://wordpress.org/?v=3.7.1</generator>
 
 	<item>
-		<title>¡Hola mundo!</title>
-		<link>http://localhost/wp_lisder/hola-mundo/</link>
-		<pubDate>Wed, 02 Oct 2013 03:36:28 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?p=1</guid>
-		<description></description>
-		<content:encoded><![CDATA[Hola mundo :D]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>1</wp:post_id>
-		<wp:post_date>2013-10-02 03:36:28</wp:post_date>
-		<wp:post_date_gmt>2013-10-02 03:36:28</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>hola-mundo</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>post</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="renovables"><![CDATA[Energias Renovables]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:comment>
-			<wp:comment_id>1</wp:comment_id>
-			<wp:comment_author><![CDATA[Sr WordPress]]></wp:comment_author>
-			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
-			<wp:comment_author_IP></wp:comment_author_IP>
-			<wp:comment_date>2013-10-02 03:36:28</wp:comment_date>
-			<wp:comment_date_gmt>2013-10-02 03:36:28</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hola, esto es un comentario.
-Para borrar un comentario simplemente accede y revisa los comentarios de la entrada. Ahí tendrás la opción de editarlo o borrarlo.]]></wp:comment_content>
-			<wp:comment_approved>1</wp:comment_approved>
-			<wp:comment_type></wp:comment_type>
-			<wp:comment_parent>0</wp:comment_parent>
-			<wp:comment_user_id>0</wp:comment_user_id>
-		</wp:comment>
-	</item>
-	<item>
-		<title>Investigaciones</title>
-		<link>http://localhost/wp_lisder/investigacion/</link>
-		<pubDate>Wed, 02 Oct 2013 03:36:28 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=2</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>2</wp:post_id>
-		<wp:post_date>2013-10-02 03:36:28</wp:post_date>
-		<wp:post_date_gmt>2013-10-02 03:36:28</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>investigacion</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[publicaciones.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Nosotros</title>
-		<link>http://localhost/wp_lisder/nosotros/</link>
-		<pubDate>Wed, 02 Oct 2013 03:48:32 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=5</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>5</wp:post_id>
-		<wp:post_date>2013-10-02 03:48:32</wp:post_date>
-		<wp:post_date_gmt>2013-10-02 03:48:32</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>nosotros</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[nosotros.php]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Blog</title>
-		<link>http://localhost/wp_lisder/blog/</link>
-		<pubDate>Wed, 02 Oct 2013 03:48:47 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=7</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>7</wp:post_id>
-		<wp:post_date>2013-10-02 03:48:47</wp:post_date>
-		<wp:post_date_gmt>2013-10-02 03:48:47</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>blog</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Contacto</title>
-		<link>http://localhost/wp_lisder/contacto/</link>
-		<pubDate>Wed, 02 Oct 2013 03:49:00 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=9</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>9</wp:post_id>
-		<wp:post_date>2013-10-02 03:49:00</wp:post_date>
-		<wp:post_date_gmt>2013-10-02 03:49:00</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>contacto</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>http://localhost/wp_lisder/11/</link>
-		<pubDate>Wed, 02 Oct 2013 04:01:55 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?p=11</guid>
+				<title></title>
+		<link>http://localhost/wp_lisder/12/</link>
+		<pubDate>Tue, 05 Nov 2013 21:58:03 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?p=12</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>11</wp:post_id>
-		<wp:post_date>2013-10-02 04:01:55</wp:post_date>
-		<wp:post_date_gmt>2013-10-02 04:01:55</wp:post_date_gmt>
+		<wp:post_id>12</wp:post_id>
+		<wp:post_date>2013-11-05 21:58:03</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 21:58:03</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>11</wp:post_name>
+		<wp:post_name>12</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>1</wp:menu_order>
@@ -256,23 +105,78 @@ Para borrar un comentario simplemente accede y revisa los comentarios de la entr
 		</wp:postmeta>
 	</item>
 	<item>
-		<title></title>
-		<link>http://localhost/wp_lisder/12/</link>
-		<pubDate>Wed, 02 Oct 2013 04:01:55 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?p=12</guid>
+				<title></title>
+		<link>http://localhost/wp_lisder/13/</link>
+		<pubDate>Tue, 05 Nov 2013 21:58:03 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?p=13</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>12</wp:post_id>
-		<wp:post_date>2013-10-02 04:01:55</wp:post_date>
-		<wp:post_date_gmt>2013-10-02 04:01:55</wp:post_date_gmt>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_date>2013-11-05 21:58:03</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 21:58:03</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>12</wp:post_name>
+		<wp:post_name>13</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-1"><![CDATA[menu-1]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[8]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title></title>
+		<link>http://localhost/wp_lisder/14/</link>
+		<pubDate>Tue, 05 Nov 2013 21:58:04 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?p=14</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>14</wp:post_id>
+		<wp:post_date>2013-11-05 21:58:04</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 21:58:04</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>14</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -311,163 +215,23 @@ Para borrar un comentario simplemente accede y revisa los comentarios de la entr
 		</wp:postmeta>
 	</item>
 	<item>
-		<title></title>
-		<link>http://localhost/wp_lisder/13/</link>
-		<pubDate>Wed, 02 Oct 2013 04:01:55 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?p=13</guid>
+				<title></title>
+		<link>http://localhost/wp_lisder/17/</link>
+		<pubDate>Tue, 05 Nov 2013 21:58:04 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?p=17</guid>
 		<description></description>
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
-		<wp:post_date>2013-10-02 04:01:55</wp:post_date>
-		<wp:post_date_gmt>2013-10-02 04:01:55</wp:post_date_gmt>
+		<wp:post_id>17</wp:post_id>
+		<wp:post_date>2013-11-05 21:58:04</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 21:58:04</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>13</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="menu-1"><![CDATA[menu-1]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[5]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>http://localhost/wp_lisder/14/</link>
-		<pubDate>Wed, 02 Oct 2013 04:01:55 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?p=14</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>14</wp:post_id>
-		<wp:post_date>2013-10-02 04:01:55</wp:post_date>
-		<wp:post_date_gmt>2013-10-02 04:01:55</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>14</wp:post_name>
+		<wp:post_name>17</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type>nav_menu_item</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="nav_menu" nicename="menu-1"><![CDATA[menu-1]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_type</wp:meta_key>
-			<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object_id</wp:meta_key>
-			<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_object</wp:meta_key>
-			<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_target</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_classes</wp:meta_key>
-			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_xfn</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_menu_item_url</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Proyectos</title>
-		<link>http://localhost/wp_lisder/proyectos/</link>
-		<pubDate>Fri, 11 Oct 2013 23:25:07 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=16</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>16</wp:post_id>
-		<wp:post_date>2013-10-11 23:25:07</wp:post_date>
-		<wp:post_date_gmt>2013-10-11 23:25:07</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>proyectos</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>page</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key>_wp_page_template</wp:meta_key>
-			<wp:meta_value><![CDATA[proyectos.php]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title></title>
-		<link>http://localhost/wp_lisder/18/</link>
-		<pubDate>Fri, 11 Oct 2013 23:25:33 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?p=18</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>18</wp:post_id>
-		<wp:post_date>2013-10-11 23:25:33</wp:post_date>
-		<wp:post_date_gmt>2013-10-11 23:25:33</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>18</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
 		<wp:post_type>nav_menu_item</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -506,11 +270,626 @@ Para borrar un comentario simplemente accede y revisa los comentarios de la entr
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Formulario de contacto 1</title>
-		<link>http://localhost/wp_lisder/?post_type=wpcf7_contact_form&#038;p=19</link>
-		<pubDate>Fri, 18 Oct 2013 05:06:59 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=wpcf7_contact_form&#038;p=19</guid>
+				<title>Ned flanders</title>
+		<link>http://localhost/wp_lisder/integrante/ned-flanders/</link>
+		<pubDate>Tue, 05 Nov 2013 23:37:57 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=integrante&#038;p=31</guid>
+		<description></description>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, reiciendis, doloremque assumenda distinctio optio placeat voluptates ratione praesentium fugiat necessitatibus beatae excepturi aliquam aut dolor voluptas. Explicabo dolores consequuntur odio.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>31</wp:post_id>
+		<wp:post_date>2013-11-05 23:37:57</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 23:37:57</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>ned-flanders</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>integrante</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[32]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>cv</wp:meta_key>
+			<wp:meta_value><![CDATA[138491817070_Paper.pdf]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>1383272088970</title>
+		<link>http://localhost/wp_lisder/integrante/ned-flanders/attachment/1383272088970/</link>
+		<pubDate>Tue, 05 Nov 2013 23:37:51 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/11/1383272088970.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>32</wp:post_id>
+		<wp:post_date>2013-11-05 23:37:51</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 23:37:51</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>1383272088970</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>31</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/11/1383272088970.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/1383272088970.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:384;s:6:"height";i:395;s:4:"file";s:25:"2013/11/1383272088970.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:25:"1383272088970-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:25:"1383272088970-291x300.jpg";s:5:"width";i:291;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:25:"1383272088970-384x264.jpg";s:5:"width";i:384;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Top leleoño</title>
+		<link>http://localhost/wp_lisder/integrante/top-leleono/</link>
+		<pubDate>Tue, 05 Nov 2013 23:38:46 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=integrante&#038;p=33</guid>
+		<description></description>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>33</wp:post_id>
+		<wp:post_date>2013-11-05 23:38:46</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 23:38:46</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>top-leleono</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>integrante</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[34]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>1381860932611</title>
+		<link>http://localhost/wp_lisder/integrante/top-leleono/attachment/1381860932611/</link>
+		<pubDate>Tue, 05 Nov 2013 23:38:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/11/1381860932611.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date>2013-11-05 23:38:42</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 23:38:42</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>1381860932611</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>33</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/11/1381860932611.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/1381860932611.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:610;s:6:"height";i:501;s:4:"file";s:25:"2013/11/1381860932611.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:25:"1381860932611-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:25:"1381860932611-300x246.jpg";s:5:"width";i:300;s:6:"height";i:246;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:25:"1381860932611-470x264.jpg";s:5:"width";i:470;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:3:"???";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>/mu/ core</title>
+		<link>http://localhost/wp_lisder/entrada/mu-core/</link>
+		<pubDate>Tue, 05 Nov 2013 23:47:11 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=entrada&#038;p=36</guid>
+		<description></description>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!
+
+&nbsp;
+
+<a href="http://localhost/wp_lisder/wp-content/uploads/2013/11/1383272088970.jpg"><img class="alignnone size-medium wp-image-32" alt="1383272088970" src="http://localhost/wp_lisder/wp-content/uploads/2013/11/1383272088970-291x300.jpg" width="291" height="300" /></a>]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>36</wp:post_id>
+		<wp:post_date>2013-11-05 23:47:11</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 23:47:11</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>mu-core</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>entrada</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[41]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>P4k </title>
+		<link>http://localhost/wp_lisder/entrada/p4k/</link>
+		<pubDate>Tue, 05 Nov 2013 23:47:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=entrada&#038;p=38</guid>
+		<description></description>
+		<content:encoded><![CDATA[&nbsp;
+
+&nbsp;
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>38</wp:post_id>
+		<wp:post_date>2013-11-05 23:47:54</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 23:47:54</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>p4k</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>entrada</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[40]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>1379604773284</title>
+		<link>http://localhost/wp_lisder/entrada/p4k/attachment/1379604773284/</link>
+		<pubDate>Tue, 05 Nov 2013 23:47:45 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/11/1379604773284.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>39</wp:post_id>
+		<wp:post_date>2013-11-05 23:47:45</wp:post_date>
+		<wp:post_date_gmt>2013-11-05 23:47:45</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>1379604773284</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>38</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/11/1379604773284.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/1379604773284.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1600;s:6:"height";i:718;s:4:"file";s:25:"2013/11/1379604773284.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:25:"1379604773284-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:25:"1379604773284-300x134.jpg";s:5:"width";i:300;s:6:"height";i:134;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:26:"1379604773284-1024x459.jpg";s:5:"width";i:1024;s:6:"height";i:459;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:25:"1379604773284-470x264.jpg";s:5:"width";i:470;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>katemacdowell_04</title>
+		<link>http://localhost/wp_lisder/entrada/p4k/katemacdowell_04/</link>
+		<pubDate>Wed, 06 Nov 2013 19:01:45 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/11/katemacdowell_04.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>40</wp:post_id>
+		<wp:post_date>2013-11-06 19:01:45</wp:post_date>
+		<wp:post_date_gmt>2013-11-06 19:01:45</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>katemacdowell_04</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>38</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/11/katemacdowell_04.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/katemacdowell_04.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:500;s:4:"file";s:28:"2013/11/katemacdowell_04.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:28:"katemacdowell_04-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:28:"katemacdowell_04-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:28:"katemacdowell_04-470x264.jpg";s:5:"width";i:470;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}s:7:"entrada";a:4:{s:4:"file";s:28:"katemacdowell_04-500x350.jpg";s:5:"width";i:500;s:6:"height";i:350;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>1380499581295</title>
+		<link>http://localhost/wp_lisder/entrada/mu-core/attachment/1380499581295/</link>
+		<pubDate>Wed, 06 Nov 2013 19:03:16 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/11/1380499581295.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>41</wp:post_id>
+		<wp:post_date>2013-11-06 19:03:16</wp:post_date>
+		<wp:post_date_gmt>2013-11-06 19:03:16</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>1380499581295</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>36</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/11/1380499581295.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/1380499581295.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:797;s:6:"height";i:797;s:4:"file";s:25:"2013/11/1380499581295.jpg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:25:"1380499581295-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:25:"1380499581295-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:25:"1380499581295-470x264.jpg";s:5:"width";i:470;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}s:7:"entrada";a:4:{s:4:"file";s:25:"1380499581295-637x350.jpg";s:5:"width";i:637;s:6:"height";i:350;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>1382132654662</title>
+		<link>http://localhost/wp_lisder/proyecto/luisito/attachment/1382132654662/</link>
+		<pubDate>Fri, 15 Nov 2013 05:29:37 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/11/1382132654662.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>54</wp:post_id>
+		<wp:post_date>2013-11-15 05:29:37</wp:post_date>
+		<wp:post_date_gmt>2013-11-15 05:29:37</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>1382132654662</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>45</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/11/1382132654662.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/1382132654662.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1080;s:4:"file";s:25:"2013/11/1382132654662.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:25:"1382132654662-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:25:"1382132654662-300x168.jpg";s:5:"width";i:300;s:6:"height";i:168;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:26:"1382132654662-1024x576.jpg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:25:"1382132654662-470x264.jpg";s:5:"width";i:470;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}s:7:"entrada";a:4:{s:4:"file";s:25:"1382132654662-637x350.jpg";s:5:"width";i:637;s:6:"height";i:350;s:9:"mime-type";s:10:"image/jpeg";}s:16:"proyectos_square";a:4:{s:4:"file";s:25:"1382132654662-303x303.jpg";s:5:"width";i:303;s:6:"height";i:303;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>1382902804294</title>
+		<link>http://localhost/wp_lisder/proyecto/luisito/attachment/1382902804294/</link>
+		<pubDate>Fri, 15 Nov 2013 05:29:39 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/11/1382902804294.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>55</wp:post_id>
+		<wp:post_date>2013-11-15 05:29:39</wp:post_date>
+		<wp:post_date_gmt>2013-11-15 05:29:39</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>1382902804294</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>45</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/11/1382902804294.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/1382902804294.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:960;s:6:"height";i:661;s:4:"file";s:25:"2013/11/1382902804294.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:25:"1382902804294-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:25:"1382902804294-300x206.jpg";s:5:"width";i:300;s:6:"height";i:206;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:25:"1382902804294-470x264.jpg";s:5:"width";i:470;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}s:7:"entrada";a:4:{s:4:"file";s:25:"1382902804294-637x350.jpg";s:5:"width";i:637;s:6:"height";i:350;s:9:"mime-type";s:10:"image/jpeg";}s:16:"proyectos_square";a:4:{s:4:"file";s:25:"1382902804294-303x303.jpg";s:5:"width";i:303;s:6:"height";i:303;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>a1081102601_10</title>
+		<link>http://localhost/wp_lisder/proyecto/luisito/a1081102601_10/</link>
+		<pubDate>Fri, 15 Nov 2013 05:29:40 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/11/a1081102601_10.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>56</wp:post_id>
+		<wp:post_date>2013-11-15 05:29:40</wp:post_date>
+		<wp:post_date_gmt>2013-11-15 05:29:40</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>a1081102601_10</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>45</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/11/a1081102601_10.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/a1081102601_10.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1200;s:6:"height";i:1200;s:4:"file";s:26:"2013/11/a1081102601_10.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:26:"a1081102601_10-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:26:"a1081102601_10-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:28:"a1081102601_10-1024x1024.jpg";s:5:"width";i:1024;s:6:"height";i:1024;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:26:"a1081102601_10-470x264.jpg";s:5:"width";i:470;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}s:7:"entrada";a:4:{s:4:"file";s:26:"a1081102601_10-637x350.jpg";s:5:"width";i:637;s:6:"height";i:350;s:9:"mime-type";s:10:"image/jpeg";}s:16:"proyectos_square";a:4:{s:4:"file";s:26:"a1081102601_10-303x303.jpg";s:5:"width";i:303;s:6:"height";i:303;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>maxresdefault</title>
+		<link>http://localhost/wp_lisder/proyecto/luisito/maxresdefault/</link>
+		<pubDate>Fri, 15 Nov 2013 05:29:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/11/maxresdefault.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>57</wp:post_id>
+		<wp:post_date>2013-11-15 05:29:42</wp:post_date>
+		<wp:post_date_gmt>2013-11-15 05:29:42</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>maxresdefault</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>45</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/11/maxresdefault.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/maxresdefault.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1920;s:6:"height";i:1200;s:4:"file";s:25:"2013/11/maxresdefault.jpg";s:5:"sizes";a:6:{s:9:"thumbnail";a:4:{s:4:"file";s:25:"maxresdefault-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:25:"maxresdefault-300x187.jpg";s:5:"width";i:300;s:6:"height";i:187;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:26:"maxresdefault-1024x640.jpg";s:5:"width";i:1024;s:6:"height";i:640;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:25:"maxresdefault-470x264.jpg";s:5:"width";i:470;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}s:7:"entrada";a:4:{s:4:"file";s:25:"maxresdefault-637x350.jpg";s:5:"width";i:637;s:6:"height";i:350;s:9:"mime-type";s:10:"image/jpeg";}s:16:"proyectos_square";a:4:{s:4:"file";s:25:"maxresdefault-303x303.jpg";s:5:"width";i:303;s:6:"height";i:303;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>vsc1</title>
+		<link>http://localhost/wp_lisder/proyecto/luisito/vsc1/</link>
+		<pubDate>Fri, 15 Nov 2013 05:29:45 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/11/vsc1.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>58</wp:post_id>
+		<wp:post_date>2013-11-15 05:29:45</wp:post_date>
+		<wp:post_date_gmt>2013-11-15 05:29:45</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>vsc1</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>45</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/11/vsc1.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/vsc1.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1024;s:6:"height";i:866;s:4:"file";s:16:"2013/11/vsc1.jpg";s:5:"sizes";a:5:{s:9:"thumbnail";a:4:{s:4:"file";s:16:"vsc1-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:16:"vsc1-300x253.jpg";s:5:"width";i:300;s:6:"height";i:253;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:16:"vsc1-470x264.jpg";s:5:"width";i:470;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}s:7:"entrada";a:4:{s:4:"file";s:16:"vsc1-637x350.jpg";s:5:"width";i:637;s:6:"height";i:350;s:9:"mime-type";s:10:"image/jpeg";}s:16:"proyectos_square";a:4:{s:4:"file";s:16:"vsc1-303x303.jpg";s:5:"width";i:303;s:6:"height";i:303;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Noticia 2</title>
+		<link>http://localhost/wp_lisder/entrada/noticia-2/</link>
+		<pubDate>Fri, 15 Nov 2013 15:05:23 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=entrada&#038;p=60</guid>
+		<description></description>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae ist beatae id tempora magnam sequi
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, ad, perspiciatis reiciendis vitae iste beatae id tempora magnam sequi aspernatur sunt inventore eveniet? Repudiandae, corporis itaque amet commodi ducimus earum!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>60</wp:post_id>
+		<wp:post_date>2013-11-15 15:05:23</wp:post_date>
+		<wp:post_date_gmt>2013-11-15 15:05:23</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>noticia-2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>entrada</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[56]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Inicio</title>
+		<link>http://localhost/wp_lisder/inicio/</link>
+		<pubDate>Thu, 21 Nov 2013 21:21:19 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?p=69</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>69</wp:post_id>
+		<wp:post_date>2013-11-21 21:21:19</wp:post_date>
+		<wp:post_date_gmt>2013-11-21 21:21:19</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>inicio</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type>nav_menu_item</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="nav_menu" nicename="menu-1"><![CDATA[menu-1]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_type</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_menu_item_parent</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object_id</wp:meta_key>
+			<wp:meta_value><![CDATA[69]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_object</wp:meta_key>
+			<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_target</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_classes</wp:meta_key>
+			<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_xfn</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_menu_item_url</wp:meta_key>
+			<wp:meta_value><![CDATA[http://localhost/wp_lisder/]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>¡Hola mundo!</title>
+		<link>http://localhost/wp_lisder/hola-mundo/</link>
+		<pubDate>Wed, 30 Oct 2013 22:50:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[Bienvenido a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡y comienza a publicar!.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date>2013-10-30 22:50:00</wp:post_date>
+		<wp:post_date_gmt>2013-10-30 22:50:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>hola-mundo</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="sin-categoria"><![CDATA[Sin categoría]]></category>
+		<wp:comment>
+			<wp:comment_id>1</wp:comment_id>
+			<wp:comment_author><![CDATA[Sr WordPress]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP></wp:comment_author_IP>
+			<wp:comment_date>2013-10-30 22:50:00</wp:comment_date>
+			<wp:comment_date_gmt>2013-10-30 22:50:00</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.
+To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them.]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+				<title>Página de ejemplo</title>
+		<link>http://localhost/wp_lisder/pagina-ejemplo/</link>
+		<pubDate>Wed, 30 Oct 2013 22:50:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+
+<blockquote>Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my blog. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin' caught in the rain.)</blockquote>
+
+...or something like this:
+
+<blockquote>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</blockquote>
+
+As a new WordPress user, you should go to <a href="http://localhost/wp_lisder/wp-admin/">your dashboard</a> to delete this page and create new pages for your content. Have fun!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>2</wp:post_id>
+		<wp:post_date>2013-10-30 22:50:00</wp:post_date>
+		<wp:post_date_gmt>2013-10-30 22:50:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>pagina-ejemplo</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1384918298]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Formulario de contacto 1</title>
+		<link>http://localhost/wp_lisder/?post_type=wpcf7_contact_form&#038;p=4</link>
+		<pubDate>Wed, 30 Oct 2013 23:11:02 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=wpcf7_contact_form&#038;p=4</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Su nombre (requerido)<br />
     [text* your-name] </p>
@@ -558,9 +937,9 @@ Falló el envío del mensaje. Por favor, inténtelo más tarde o contacte con el
 Por favor, acepte los términos y condiciones para continuar.
 Por favor, complete el campo requerido.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>19</wp:post_id>
-		<wp:post_date>2013-10-18 05:06:59</wp:post_date>
-		<wp:post_date_gmt>2013-10-18 05:06:59</wp:post_date_gmt>
+		<wp:post_id>4</wp:post_id>
+		<wp:post_date>2013-10-30 23:11:02</wp:post_date>
+		<wp:post_date_gmt>2013-10-30 23:11:02</wp:post_date_gmt>
 		<wp:comment_status>open</wp:comment_status>
 		<wp:ping_status>open</wp:ping_status>
 		<wp:post_name>formulario-de-contacto-1</wp:post_name>
@@ -619,10 +998,319 @@ Este e-mail se ha enviado vía formulario de contacto desde LISDER http://localh
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Proyecto</title>
+				<title>¡Hola mundo!</title>
+		<link>http://localhost/wp_lisder/hola-mundo-2/</link>
+		<pubDate>Wed, 02 Oct 2013 03:36:28 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[Hola mundo :D]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date>2013-10-02 03:36:28</wp:post_date>
+		<wp:post_date_gmt>2013-10-02 03:36:28</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>hola-mundo-2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="renovables"><![CDATA[Energias Renovables]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[Sr WordPress]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url>http://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP></wp:comment_author_IP>
+			<wp:comment_date>2013-10-02 03:36:28</wp:comment_date>
+			<wp:comment_date_gmt>2013-10-02 03:36:28</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hola, esto es un comentario.
+Para borrar un comentario simplemente accede y revisa los comentarios de la entrada. Ahí tendrás la opción de editarlo o borrarlo.]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+		</wp:comment>
+	</item>
+	<item>
+				<title>Investigaciones</title>
+		<link>http://localhost/wp_lisder/investigacion/</link>
+		<pubDate>Wed, 02 Oct 2013 03:36:28 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=2</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>7</wp:post_id>
+		<wp:post_date>2013-10-02 03:36:28</wp:post_date>
+		<wp:post_date_gmt>2013-10-02 03:36:28</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>investigacion</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[publicaciones.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Nosotros</title>
+		<link>http://localhost/wp_lisder/nosotros/</link>
+		<pubDate>Wed, 02 Oct 2013 03:48:32 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=5</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>8</wp:post_id>
+		<wp:post_date>2013-10-02 03:48:32</wp:post_date>
+		<wp:post_date_gmt>2013-10-02 03:48:32</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>nosotros</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[nosotros.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Noticias</title>
+		<link>http://localhost/wp_lisder/noticias/</link>
+		<pubDate>Wed, 02 Oct 2013 03:48:47 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=7</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>9</wp:post_id>
+		<wp:post_date>2013-10-02 03:48:47</wp:post_date>
+		<wp:post_date_gmt>2013-10-02 03:48:47</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>noticias</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[blog.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Contacto</title>
+		<link>http://localhost/wp_lisder/contacto/</link>
+		<pubDate>Wed, 02 Oct 2013 03:49:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=9</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_date>2013-10-02 03:49:00</wp:post_date>
+		<wp:post_date_gmt>2013-10-02 03:49:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>contacto</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1384918290]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Proyectos</title>
+		<link>http://localhost/wp_lisder/proyectos/</link>
+		<pubDate>Fri, 11 Oct 2013 23:25:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=16</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>16</wp:post_id>
+		<wp:post_date>2013-10-11 23:25:07</wp:post_date>
+		<wp:post_date_gmt>2013-10-11 23:25:07</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>proyectos</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[proyectos.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Formulario de contacto 1</title>
+		<link>http://localhost/wp_lisder/?post_type=wpcf7_contact_form&#038;p=19</link>
+		<pubDate>Fri, 18 Oct 2013 05:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=wpcf7_contact_form&#038;p=19</guid>
+		<description></description>
+		<content:encoded><![CDATA[<p>Su nombre (requerido)<br />
+    [text* your-name] </p>
+
+<p>Su e-mail (requerido)<br />
+    [email* your-email] </p>
+
+<p>Asunto<br />
+    [text your-subject] </p>
+
+<p>Su mensaje<br />
+    [textarea your-message] </p>
+
+<p>[submit "Enviar"]</p>
+[your-subject]
+[your-name] <[your-email]>
+De: [your-name] <[your-email]>
+Asunto: [your-subject]
+
+Cuerpo del mensaje:
+[your-message]
+
+--
+Este e-mail se ha enviado vía formulario de contacto desde LISDER http://localhost/wp_lisder
+daniel.torrer@gmail.com
+
+
+0
+
+[your-subject]
+[your-name] <[your-email]>
+Cuerpo del mensaje:
+[your-message]
+
+--
+Este e-mail se ha enviado vía formulario de contacto desde LISDER http://localhost/wp_lisder
+[your-email]
+
+
+0
+Su mensaje se ha enviado con éxito. Muchas gracias.
+Falló el envío del mensaje. Por favor, inténtelo más tarde o contacte con el administrador por otro medio.
+Ocurrió un error de validación. Por favor, confirme los campos y envíe el formulario de nuevo.
+Falló el envío del mensaje. Por favor, inténtelo más tarde o contacte con el administrador por otro medio.
+Por favor, acepte los términos y condiciones para continuar.
+Por favor, complete el campo requerido.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>19</wp:post_id>
+		<wp:post_date>2013-10-18 05:06:59</wp:post_date>
+		<wp:post_date_gmt>2013-10-18 05:06:59</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>formulario-de-contacto-1-2</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>wpcf7_contact_form</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_form</wp:meta_key>
+			<wp:meta_value><![CDATA[<p>Su nombre (requerido)<br />
+    [text* your-name] </p>
+
+<p>Su e-mail (requerido)<br />
+    [email* your-email] </p>
+
+<p>Asunto<br />
+    [text your-subject] </p>
+
+<p>Su mensaje<br />
+    [textarea your-message] </p>
+
+<p>[submit "Enviar"]</p>]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_mail</wp:meta_key>
+			<wp:meta_value><![CDATA[a:7:{s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:26:"[your-name] <[your-email]>";s:4:"body";s:187:"De: [your-name] <[your-email]>
+Asunto: [your-subject]
+
+Cuerpo del mensaje:
+[your-message]
+
+--
+Este e-mail se ha enviado vía formulario de contacto desde LISDER http://localhost/wp_lisder";s:9:"recipient";s:23:"daniel.torrer@gmail.com";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_mail_2</wp:meta_key>
+			<wp:meta_value><![CDATA[a:8:{s:6:"active";b:0;s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:26:"[your-name] <[your-email]>";s:4:"body";s:132:"Cuerpo del mensaje:
+[your-message]
+
+--
+Este e-mail se ha enviado vía formulario de contacto desde LISDER http://localhost/wp_lisder";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_messages</wp:meta_key>
+			<wp:meta_value><![CDATA[a:6:{s:12:"mail_sent_ok";s:52:"Su mensaje se ha enviado con éxito. Muchas gracias.";s:12:"mail_sent_ng";s:110:"Falló el envío del mensaje. Por favor, inténtelo más tarde o contacte con el administrador por otro medio.";s:16:"validation_error";s:97:"Ocurrió un error de validación. Por favor, confirme los campos y envíe el formulario de nuevo.";s:4:"spam";s:110:"Falló el envío del mensaje. Por favor, inténtelo más tarde o contacte con el administrador por otro medio.";s:12:"accept_terms";s:61:"Por favor, acepte los términos y condiciones para continuar.";s:16:"invalid_required";s:39:"Por favor, complete el campo requerido.";}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_additional_settings</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_locale</wp:meta_key>
+			<wp:meta_value><![CDATA[es_ES]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Proyecto</title>
 		<link>http://localhost/wp_lisder/proyecto/blog/</link>
 		<pubDate>Fri, 18 Oct 2013 05:14:44 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
+		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=proyecto&#038;p=20</guid>
 		<description></description>
 		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute  rure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -648,116 +1336,31 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>tecnologia</wp:meta_key>
-			<wp:meta_value><![CDATA[1382076659css3_logo1186x160.png]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>tecnologia</wp:meta_key>
-			<wp:meta_value><![CDATA[1382076577HTML5_Logo_512.png]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[24]]></wp:meta_value>
+			<wp:meta_value><![CDATA[57]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>tecnologia</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>latitud</wp:meta_key>
+			<wp:meta_value><![CDATA[40.597271]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>longitud</wp:meta_key>
+			<wp:meta_value><![CDATA[-3.251953]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>pais</wp:meta_key>
+			<wp:meta_value><![CDATA[España]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>16812290807911e2843f22000a9e0722_7</title>
-		<link>http://localhost/wp_lisder/proyecto/blog/16812290807911e2843f22000a9e0722_7/</link>
-		<pubDate>Fri, 18 Oct 2013 05:14:34 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/10/16812290807911e2843f22000a9e0722_7.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>21</wp:post_id>
-		<wp:post_date>2013-10-18 05:14:34</wp:post_date>
-		<wp:post_date_gmt>2013-10-18 05:14:34</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>16812290807911e2843f22000a9e0722_7</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>20</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/10/16812290807911e2843f22000a9e0722_7.jpg</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2013/10/16812290807911e2843f22000a9e0722_7.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:612;s:6:"height";i:612;s:4:"file";s:46:"2013/10/16812290807911e2843f22000a9e0722_7.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:46:"16812290807911e2843f22000a9e0722_7-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:46:"16812290807911e2843f22000a9e0722_7-300x300.jpg";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>2</title>
-		<link>http://localhost/wp_lisder/proyecto/blog/attachment/2/</link>
-		<pubDate>Fri, 18 Oct 2013 05:28:10 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/10/2.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>22</wp:post_id>
-		<wp:post_date>2013-10-18 05:28:10</wp:post_date>
-		<wp:post_date_gmt>2013-10-18 05:28:10</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>2</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>20</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/10/2.jpg</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2013/10/2.jpg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:1600;s:6:"height";i:901;s:4:"file";s:13:"2013/10/2.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:13:"2-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:13:"2-300x168.jpg";s:5:"width";i:300;s:6:"height";i:168;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:14:"2-1024x576.jpg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>phm_wallpaper3_16x9</title>
-		<link>http://localhost/wp_lisder/proyecto/blog/phm_wallpaper3_16x9/</link>
-		<pubDate>Fri, 18 Oct 2013 06:47:02 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/10/phm_wallpaper3_16x9.jpeg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>24</wp:post_id>
-		<wp:post_date>2013-10-18 06:47:02</wp:post_date>
-		<wp:post_date_gmt>2013-10-18 06:47:02</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>phm_wallpaper3_16x9</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>20</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/10/phm_wallpaper3_16x9.jpeg</wp:attachment_url>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2013/10/phm_wallpaper3_16x9.jpeg]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:2560;s:6:"height";i:1440;s:4:"file";s:32:"2013/10/phm_wallpaper3_16x9.jpeg";s:5:"sizes";a:4:{s:9:"thumbnail";a:4:{s:4:"file";s:32:"phm_wallpaper3_16x9-150x150.jpeg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:32:"phm_wallpaper3_16x9-300x168.jpeg";s:5:"width";i:300;s:6:"height";i:168;s:9:"mime-type";s:10:"image/jpeg";}s:5:"large";a:4:{s:4:"file";s:33:"phm_wallpaper3_16x9-1024x576.jpeg";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";}s:9:"proyectos";a:4:{s:4:"file";s:32:"phm_wallpaper3_16x9-470x264.jpeg";s:5:"width";i:470;s:6:"height";i:264;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Publicacion 1</title>
+				<title>Publicacion 1</title>
 		<link>http://localhost/wp_lisder/publicacion/publicacion-1/</link>
 		<pubDate>Wed, 21 Oct 2009 21:18:49 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
+		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=publicacion&#038;p=28</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p style="text-align: left;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat  non roident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]></content:encoded>
@@ -781,10 +1384,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_thumbnail_id</wp:meta_key>
-			<wp:meta_value><![CDATA[29]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>ano</wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
@@ -794,34 +1393,177 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>60</title>
-		<link>http://localhost/wp_lisder/publicacion/publicacion-1/attachment/60/</link>
-		<pubDate>Mon, 21 Oct 2013 21:18:40 +0000</pubDate>
-		<dc:creator>admin</dc:creator>
-		<guid isPermaLink="false">http://localhost/wp_lisder/wp-content/uploads/2013/10/60.gif</guid>
+				<title>Luisito</title>
+		<link>http://localhost/wp_lisder/proyecto/luisito/</link>
+		<pubDate>Fri, 08 Nov 2013 21:30:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=proyecto&#038;p=45</guid>
 		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>29</wp:post_id>
-		<wp:post_date>2013-10-21 21:18:40</wp:post_date>
-		<wp:post_date_gmt>2013-10-21 21:18:40</wp:post_date_gmt>
-		<wp:comment_status>open</wp:comment_status>
-		<wp:ping_status>open</wp:ping_status>
-		<wp:post_name>60</wp:post_name>
-		<wp:status>inherit</wp:status>
-		<wp:post_parent>28</wp:post_parent>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, similique, numquam iusto odit temporibus ratione amet exercitationem itaque sunt id nam quisquam nostrum neque eaque perferendis totam suscipit voluptates rem!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, similique, numquam iusto odit temporibus ratione amet exercitationem itaque sunt id nam quisquam nostrum neque eaque perferendis totam suscipit voluptates rem!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, similique, numquam iusto odit temporibus ratione amet exercitationem itaque sunt id nam quisquam nostrum neque eaque perferendis totam suscipit voluptates rem!
+
+&nbsp;
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, similique, numquam iusto odit temporibus ratione amet exercitationem itaque sunt id nam quisquam nostrum neque eaque perferendis totam suscipit voluptates rem!]]></content:encoded>
+		<excerpt:encoded><![CDATA[Ejemplo del tema de wordpress]]></excerpt:encoded>
+		<wp:post_id>45</wp:post_id>
+		<wp:post_date>2013-11-08 21:30:00</wp:post_date>
+		<wp:post_date_gmt>2013-11-08 21:30:00</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>luisito</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>attachment</wp:post_type>
+		<wp:post_type>proyecto</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>http://localhost/wp_lisder/wp-content/uploads/2013/10/60.gif</wp:attachment_url>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attached_file</wp:meta_key>
-			<wp:meta_value><![CDATA[2013/10/60.gif]]></wp:meta_value>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
-			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:400;s:6:"height";i:400;s:4:"file";s:14:"2013/10/60.gif";s:5:"sizes";a:3:{s:9:"thumbnail";a:4:{s:4:"file";s:14:"60-150x150.gif";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/gif";}s:6:"medium";a:4:{s:4:"file";s:14:"60-300x300.gif";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/gif";}s:9:"proyectos";a:4:{s:4:"file";s:14:"60-400x264.gif";s:5:"width";i:400;s:6:"height";i:264;s:9:"mime-type";s:9:"image/gif";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+			<wp:meta_key>_thumbnail_id</wp:meta_key>
+			<wp:meta_value><![CDATA[54]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>tecnologia</wp:meta_key>
+			<wp:meta_value><![CDATA[13839461781383272088970.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>tecnologia</wp:meta_key>
+			<wp:meta_value><![CDATA[13839461881383270555861.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>latitud</wp:meta_key>
+			<wp:meta_value><![CDATA[19.497664]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>longitud</wp:meta_key>
+			<wp:meta_value><![CDATA[-99.052734]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>pais</wp:meta_key>
+			<wp:meta_value><![CDATA[México]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>LEL</title>
+		<link>http://localhost/wp_lisder/publicacion/lel/</link>
+		<pubDate>Fri, 08 Nov 2013 21:32:25 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?post_type=publicacion&#038;p=47</guid>
+		<description></description>
+		<content:encoded><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, similique, numquam iusto odit temporibus ratione amet exercitationem itaque sunt id nam quisquam nostrum neque eaque perferendis totam suscipit voluptates rem!]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>47</wp:post_id>
+		<wp:post_date>2013-11-08 21:32:25</wp:post_date>
+		<wp:post_date_gmt>2013-11-08 21:32:25</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>lel</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>publicacion</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="fecha" nicename="2013"><![CDATA[2013]]></category>
+		<category domain="revista" nicename="revista-mexicana-de-aviacion"><![CDATA[Revista Mexicana de Aviacion]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>autores</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Misión - Visión</title>
+		<link>http://localhost/wp_lisder/mision-vision/</link>
+		<pubDate>Thu, 21 Nov 2013 21:17:21 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=64</guid>
+		<description></description>
+		<content:encoded><![CDATA[<strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, explicabo, eaque repellendus soluta cum vero eveniet ducimus nisi eius hic ut sunt a id commodi inventore quam iure quaerat. Nulla!</strong>
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, consectetur, a, cupiditate, laudantium saepe quia exercitationem assumenda illum veniam asperiores facere totam numquam ipsum adipisci ut iusto natus quibusdam. Illum!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ullam, culpa, consequatur id dicta nisi saepe quibusdam quaerat minus quae amet beatae autem sed non ipsum minima expedita repellendus. Amet.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, modi, iure, corporis ipsum ad architecto magni omnis perferendis vero odio eligendi tempora facilis perspiciatis ullam facere aperiam similique quibusdam? Dolor?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, optio, dolor quod esse possimus nesciunt cumque consequuntur sint aspernatur illum molestias atque consectetur voluptates quibusdam perspiciatis voluptate ipsa nostrum animi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, at ea dignissimos ut libero nisi ipsa. Fuga, quidem tempora doloremque eaque dicta quia assumenda odit ullam voluptate modi soluta corrupti?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, consequatur, ratione assumenda ipsum quos itaque inventore ducimus voluptate quas aliquid commodi sint nemo fugiat sed aspernatur amet nihil aut dolorem.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>64</wp:post_id>
+		<wp:post_date>2013-11-21 21:17:21</wp:post_date>
+		<wp:post_date_gmt>2013-11-21 21:17:21</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>mision-vision</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1385079610]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Historia</title>
+		<link>http://localhost/wp_lisder/historia/</link>
+		<pubDate>Thu, 21 Nov 2013 21:18:39 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp_lisder/?page_id=67</guid>
+		<description></description>
+		<content:encoded><![CDATA[<strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, explicabo, eaque repellendus soluta cum vero eveniet ducimus nisi eius hic ut sunt a id commodi inventore quam iure quaerat. Nulla!
+</strong>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, consectetur, a, cupiditate, laudantium saepe quia exercitationem assumenda illum veniam asperiores facere totam numquam ipsum adipisci ut iusto natus quibusdam. Illum!
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, ullam, culpa, consequatur id dicta nisi saepe quibusdam quaerat minus quae amet beatae autem sed non ipsum minima expedita repellendus. Amet.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, modi, iure, corporis ipsum ad architecto magni omnis perferendis vero odio eligendi tempora facilis perspiciatis ullam facere aperiam similique quibusdam? Dolor?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, optio, dolor quod esse possimus nesciunt cumque consequuntur sint aspernatur illum molestias atque consectetur voluptates quibusdam perspiciatis voluptate ipsa nostrum animi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, at ea dignissimos ut libero nisi ipsa. Fuga, quidem tempora doloremque eaque dicta quia assumenda odit ullam voluptate modi soluta corrupti?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, consequatur, ratione assumenda ipsum quos itaque inventore ducimus voluptate quas aliquid commodi sint nemo fugiat sed aspernatur amet nihil aut dolorem.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>67</wp:post_id>
+		<wp:post_date>2013-11-21 21:18:39</wp:post_date>
+		<wp:post_date_gmt>2013-11-21 21:18:39</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>historia</wp:post_name>
+		<wp:status>trash</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>page</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_page_template</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_status</wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_trash_meta_time</wp:meta_key>
+			<wp:meta_value><![CDATA[1385079615]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
