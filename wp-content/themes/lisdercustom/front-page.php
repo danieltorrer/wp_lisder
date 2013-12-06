@@ -56,6 +56,32 @@ get_header();
 			?>
 		</div>
 	</div>
+
+	<div class="row">
+		<div class="large-12 columns">
+			<ul class="inline-list">
+				<?php
+				
+				$args = array(
+					'numberposts' => 5,
+					'orderby' => 'post_date',
+					'order' => 'DESC',
+					'post_type' => 'proyecto'
+					);
+				
+				$recent_posts = wp_get_recent_posts( $args );
+				foreach( $recent_posts as $recent ){
+					?>
+					<li>
+						<a href="<?php echo get_permalink($recent['ID']); ?>"> <?php echo get_the_post_thumbnail( $recent["ID"], "thumbnail", ""); ?> </a>
+						<div class="orbit-caption"><?php echo $recent["post_title"]; ?></div>
+					</li>
+					<?php
+				}
+				?>
+			</ul>
+		</div>
+	</div>
 </div>
 
 <?php 

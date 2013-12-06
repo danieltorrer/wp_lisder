@@ -327,5 +327,6 @@ footer .copyright{
 }
 
 .slideshow-wrapper{
-	min-height: 637px;
+	margin-bottom: 20px;
+	//min-height: 637px;
 }
