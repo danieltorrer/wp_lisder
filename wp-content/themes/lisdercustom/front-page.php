@@ -1,35 +1,23 @@
 <?php
 get_header();
 ?>
-<div id="mapa">
-</div>
-
-<div style="background: none; position: fixed; top: calc(100% - 50px); height: auto; left: calc(50% - 14px); z-index: 1000;">
-	<a href="#feed" id="down"><img src="<?php bloginfo('template_directory');?>/img/down_b.png" alt=""></a>
-</div>
-
+<div id="mapa"></div>
 <div id="feed" style="position:relative;">
-	<!--<div style="background: none; position: absolute; top: 10px; height: auto; left: calc(50% - 14px);">
-		<a href="#header">
-			<img src="<?php bloginfo('template_directory');?>/img/up_b.png" alt="">
-		</a>
-	</div>-->
 	<div class="row">
 		<div class="large-8 columns slideshow-wrapper">
+			<h4>Utimas noticias</h4>
 			<div class="preloader"></div>
 			<ul data-orbit>
 				<?php
 
 				$args = array(
-					'numberposts' => 3,
+					'numberposts' => 5,
 					'orderby' => 'post_date',
 					'order' => 'DESC',
 					'post_type' => 'entrada'
 					);
 
 				$recent_posts = wp_get_recent_posts( $args );
-
-			//$recent_posts = wp_get_recent_posts();
 				foreach( $recent_posts as $recent ){
 					?>
 					<li>
@@ -45,13 +33,29 @@ get_header();
 		</div>
 
 		<div class="large-4 columns">
-			<h5>Utimas publicaciones</h5>
+			<h4>Utimas publicaciones</h4>
+			<?php
 
+			$args = array(
+				'numberposts' => 5,
+				'orderby' => 'post_date',
+				'order' => 'DESC',
+				'post_type' => 'publicacion'
+				);
+
+			$recent_posts = wp_get_recent_posts( $args );
+			foreach( $recent_posts as $recent ){
+				?>
+				<div class="orbit-caption">
+					<a href="<?php echo get_permalink($recent['ID']); ?>">
+						<p><?php echo $recent["post_title"]; ?></p>
+					</a>
+				</div>
+				<?php
+			}
+			?>
 		</div>
 	</div>
-	<!--<div style="background: none; position: absolute; top: calc(100% - 50px); height: auto; left: calc(50% - 14px);">
-		<a href="#feed"><img src="<?php bloginfo('template_directory');?>/img/down_b.png" alt=""></a>
-	</div>-->
 </div>
 
 <?php 

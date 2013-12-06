@@ -77,8 +77,8 @@ header .site-title img{
 footer{
 	margin: 0px;
 	border-top: 1px solid #bbb;
-	//background: #53A3FF;
-	background: black;
+	background: #53A3FF;
+	height: 249px;
 }
 
 footer>.row>.large-12>div{
@@ -171,10 +171,8 @@ footer .copyright{
 
 .proyecto-content{
 	color: white;
-	//color: black;
 	height: 100%;
 	box-sizing: border-box;
-	//background: rgba(255,255,255,0.4);
 	background: rgba(0,0,0,0.2);
 	padding: 10px 15px;
 	position: absolute;

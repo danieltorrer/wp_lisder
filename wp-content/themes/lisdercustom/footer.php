@@ -15,8 +15,7 @@
 						<a href="https://twitter.com/LISDERFCC"><img src="<?php bloginfo('template_directory');?>/img/some.png" alt=""></a>
 						<a href="https://www.facebook.com/LISDER"><img src="<?php bloginfo('template_directory');?>/img/fb1.png" alt=""></a>
 					</div>
-				</div>				
-
+				</div>
 			</div>
 		</div>
 
@@ -28,35 +27,39 @@
 	<?php 
 	if(is_front_page()){
 		?>
-		<!--<script src="<?php bloginfo('template_directory');?>/js/parallax.min.js"></script>-->
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-		<!--<script src="<?php bloginfo('template_directory');?>/js/parallax.js"></script>-->
 		<script src="<?php bloginfo('template_directory');?>/js/gmaps.js"></script>
 		<script src="<?php bloginfo('template_directory');?>/js/scrollTo.min.js"></script>
 		<script src="<?php bloginfo('template_directory');?>/js/orbit.js"></script>
+		<script src="<?php bloginfo('template_directory');?>/js/orbit.js"></script>
+		<script src="<?php bloginfo('template_directory');?>/js/front-functions.js"></script>
 		<script>
 		var height  = $("body").css("height")
 		var scrolling = false;
-
-		function scrollPanel(e){
-			e.preventDefault()
-			if (!scrolling) {
-				scrolling = true;
-				var evt = window.event || e //equalize event object
-				var delta	=	evt.detail? evt.detail*(-120) : evt.wheelDelta
-				var signo	=	delta>0? "-" : "+"
-				console.log(signo)
-				$.scrollTo( signo+'='+height, 900 );
-				
-				 setTimeout ("scrolling = false;", 900); 
-			}
-			else{
-				console.log('busy')
-			}
-		}
+		var scrollSize = height;
 
 		$(document).ready(function(){
 			
+			document.addEventListener('keydown', function(event) {
+				if(event.keyCode == 38) {
+					event.preventDefault()
+				}
+				else if(event.keyCode == 40) {
+					event.preventDefault()
+				}
+			})
+			document.addEventListener('keyup', function(event) {
+				if(event.keyCode == 38) {
+					event.preventDefault()
+					getSizeScroll()
+					$.scrollTo( '-='+scrollSize, 900 );
+				}
+				else if(event.keyCode == 40) {
+					event.preventDefault()
+					getSizeScroll()
+					$.scrollTo( '+='+scrollSize, 900 );
+				}
+			});
 			var mousewheelevt=(/Firefox/i.test(navigator.userAgent))? "DOMMouseScroll" : "mousewheel" //FF doesn't recognize mousewheel as of FF3.x
  			if (document.attachEvent) //if IE (and Opera depending on user setting)
  				document.attachEvent("on"+mousewheelevt, function(e){
@@ -72,7 +75,7 @@
 
  			height  = $("body").css("height")
  			$('#down').click(function(){
- 				$.scrollTo( '+='+height, 900 );
+ 				$.scrollTo( '+='+scrollSize, 900 );
  			});
 
  			map = new GMaps({
