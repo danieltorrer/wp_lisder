@@ -12,7 +12,7 @@
 					</div>
 
 					<div class="social">
-						<a href="https://twitter.com/LISDERFCC"><img src="<?php bloginfo('template_directory');?>/img/some.png" alt=""></a>
+						<a href="https://twitter.com/LISDERFCC"><img src="<?php bloginfo('template_directory');?>/img/some_b.png" alt=""></a>
 						<a href="https://www.facebook.com/LISDER"><img src="<?php bloginfo('template_directory');?>/img/fb1.png" alt=""></a>
 					</div>
 				</div>

@@ -30,9 +30,9 @@ get_header();
 				<img src="<?php echo $url[0]?>" alt="">
 			</div>
 			<div class="proyecto-content">
-				<h4> <?php the_title()?> </h4>
+				<h4> <a href="<?php the_permalink() ?>"><?php the_title()?></a> </h4>
 				<?php the_excerpt() ?>
-				<a class="button small right" href="<?php the_permalink() ?>">Ver proyecto</a>
+				<!--<a class="button small right" href="<?php the_permalink() ?>">Ver proyecto</a>-->
 			</div>
 		</div>
 	</div>

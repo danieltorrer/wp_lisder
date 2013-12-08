@@ -51,7 +51,7 @@ header .site-title img{
 	margin-left: 0px !important;
 	text-align: right;
 	box-sizing: border-box;
-	padding-top: 15px;
+	padding-top: 12px;
 	height: 100%;
 }
 
@@ -114,7 +114,21 @@ footer .copyright{
 	min-height: 600px;
 	height: 100%;
 	background-color: white;
-	padding-top: 20px;
+}
+
+#feed>.row{
+	height: 100%;
+}
+
+.middle-parent{
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.middle-content{
+	display: table-cell;
+	vertical-align: middle;
 }
 
 #main{
@@ -189,7 +203,6 @@ footer .copyright{
 }
 
 #proyecto-container{
-	margin-top: 40px;
 	height: 350px;
 	width: 100%;
 }
@@ -274,6 +287,24 @@ footer .copyright{
 	background-color: #53A3FF;
 }
 
+.proyectos-mini li{
+	//display: inline-block;
+	margin-left: 0.8em !important;
+}
+
+.proyectos-mini li:first-child{
+	margin-left: 1.375em !important;
+}
+
+.breadcrumbs {
+	border: none;
+	margin-bottom: 0px;
+	background: none;
+}
+
+.orbit-caption a{
+	color: white;
+}
 /*********/
 
 .isotope-item {
@@ -324,9 +355,4 @@ footer .copyright{
 
 .layer.titles>.row>.large-12>h2{
 	text-align: center;
-}
-
-.slideshow-wrapper{
-	margin-bottom: 20px;
-	//min-height: 637px;
 }
