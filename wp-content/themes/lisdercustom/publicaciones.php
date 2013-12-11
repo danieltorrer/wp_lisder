@@ -6,7 +6,7 @@ Template name: publicaciones
 <?php
 get_header();
 ?>
-<div class="row">
+<div id="publicacion-container"><div class="row">
 	<div class="large-12 columns">
 		<h1>Investigación</h1>
 	</div>
@@ -57,7 +57,7 @@ $the_query = new WP_Query( $args);
 		<?php endif; 
 		?>
 	</div>
-</div>
+</div></div>
 
 
 

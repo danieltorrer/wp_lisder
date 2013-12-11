@@ -71,8 +71,6 @@
  					scrollPanel(e)
  				}, false)
 
-
-
  			height  = $("body").css("height")
  			$('#down').click(function(){
  				$.scrollTo( '+='+scrollSize, 900 );
@@ -102,6 +100,34 @@
  				lat: <?php echo get_field('latitud')[1] ?>,
  				lng: <?php echo get_field('longitud')[1] ?>,
  				title: '<?php the_title()?>',
+ 				icon: "<?php bloginfo('template_directory');?>/img/pin_2b.png" ,
+ 				infoWindow: {
+ 					content: '<h6><?php echo get_field("pais")[1] ?></h6> <p><a href=" <?php the_permalink() ?> "><?php the_title()?></a></p>'
+ 				}
+ 			});
+
+
+ 			<?php endwhile; else: 
+ 			?>
+ 			<?php endif; 
+ 			?>
+
+
+ 			<?php 
+ 			$args = array(
+ 				'post_type' => 'publicacion',
+ 			);
+
+ 			$the_query = new WP_Query( $args);
+ 			?>
+ 			<?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); 
+ 			?>
+
+ 			map.addMarker({
+ 				lat: <?php echo get_field('latitud')[1] ?>,
+ 				lng: <?php echo get_field('longitud')[1] ?>,
+ 				title: '<?php the_title()?>',
+ 				icon: "<?php bloginfo('template_directory');?>/img/pin_1b.png" ,
  				infoWindow: {
  					content: '<h6><?php echo get_field("pais")[1] ?></h6> <p><a href=" <?php the_permalink() ?> "><?php the_title()?></a></p>'
  				}

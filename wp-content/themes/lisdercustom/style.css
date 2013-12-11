@@ -268,6 +268,10 @@ footer .copyright{
 	padding-left: 15px;
 }
 
+#publicacion-container{
+	min-height: calc(100% - 90px);
+}
+
 .show-all{
 	margin-bottom: 0px;
 }
@@ -304,6 +308,23 @@ footer .copyright{
 
 .orbit-caption a{
 	color: white;
+}
+
+.paginas{
+	text-align: center;
+	margin: 20px 0;
+}
+
+.paginas{
+	text-align: center;
+}
+
+.paginas a,.paginas span{
+	font: 1.5em/1.2em 'EB Garamond',serif !important;
+}
+
+.proyect-container{
+	min-height: calc(100% - 90px - 249px);
 }
 /*********/
 

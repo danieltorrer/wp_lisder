@@ -35,35 +35,28 @@ get_header();
 	</div>
 
 	<div class="large-12 columns integrantes">
+		<div class="row">
+			<?php
+			$args = array(
+				'post_type' => 'integrante',
+				);
 
-		<?php
-		$args = array(
-			'post_type' => 'integrante',
-			);
-
-		$the_query = new WP_Query( $args);
-		?>
-		<?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); 
-		?>
-		
-		<div class="integrante">
-			<div class="row">
-				<div class="large-4 columns">
-					<?php the_post_thumbnail( "thumbnail", $attr = '' ) ?>
-				</div>
-				<div class="large-8 columns">
-					<h4><?php the_title(  ) ?></h4>
-					<?php the_content(  ); ?>
-					<p><a href="<?php echo get_field('cv')[1]?>">Curriculum</a></p>
+			$the_query = new WP_Query( $args);
+			?>
+			<?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); 
+			?>
+			
+			<div class="large-3 columns">
+				<div class="integrante">
+					<?php the_post_thumbnail() ?>
 				</div>
 			</div>
+
+			<?php endwhile; else: 
+			?>
+			<?php endif; 
+			?>
 		</div>
-
-		<?php endwhile; else: 
-		?>
-		<?php endif; 
-		?>
-
 	</div>
 	
 </div>
