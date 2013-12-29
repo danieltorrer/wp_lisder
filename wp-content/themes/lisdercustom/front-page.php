@@ -2,6 +2,15 @@
 get_header();
 ?>
 <div id="mapa"></div>
+<div class="icons">
+	<p>
+		<img src="<?php bloginfo('template_directory');?>/img/pin_2b.png" alt=""> = Proyectos
+	</p>
+
+	<p>
+		<img src="<?php bloginfo('template_directory');?>/img/pin_1b.png" alt=""> = Publicaciones
+	</p>
+</div>
 
 <div id="feed">
 	<div class="middle-parent">

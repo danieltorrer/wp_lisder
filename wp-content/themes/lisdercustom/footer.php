@@ -23,14 +23,12 @@
 
 	<script src="<?php bloginfo('template_directory');?>/js/vendor/jquery.js"></script>
 	<script src="<?php bloginfo('template_directory');?>/js/foundation.min.js"></script>
-	<!--<script src="<?php bloginfo('template_directory');?>/js/main.js ?>"></script>-->
 	<?php 
 	if(is_front_page()){
 		?>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 		<script src="<?php bloginfo('template_directory');?>/js/gmaps.js"></script>
 		<script src="<?php bloginfo('template_directory');?>/js/scrollTo.min.js"></script>
-		<script src="<?php bloginfo('template_directory');?>/js/orbit.js"></script>
 		<script src="<?php bloginfo('template_directory');?>/js/orbit.js"></script>
 		<script src="<?php bloginfo('template_directory');?>/js/front-functions.js"></script>
 		<script>
@@ -116,7 +114,7 @@
  			<?php 
  			$args = array(
  				'post_type' => 'publicacion',
- 			);
+ 				);
 
  			$the_query = new WP_Query( $args);
  			?>
@@ -129,7 +127,7 @@
  				title: '<?php the_title()?>',
  				icon: "<?php bloginfo('template_directory');?>/img/pin_1b.png" ,
  				infoWindow: {
- 					content: '<h6><?php echo get_field("pais")[1] ?></h6> <p><a href=" <?php the_permalink() ?> "><?php the_title()?></a></p>'
+ 					content: '<h6><?php echo get_field("pais")[1] ?></h6> <p><a href="<?php echo get_site_url(); ?>/investigacion#id<?php the_id()?>"><?php the_title()?></a></p>'
  				}
  			});
 
@@ -152,7 +150,6 @@ if (is_page("investigacion" )) {
 	<?php
 }
 ?>
-
 <?php wp_footer(); ?>
 
 </body>

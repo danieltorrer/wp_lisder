@@ -25,7 +25,7 @@
 <body style="height: 100%;">
 	<header id="header">
 		<div class="row" role="banner">
-			<hgroup class="large-2 columns">
+			<hgroup class="large-2 small-4 small-centered large-uncentered columns">
 				<h1 class="site-title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 						<img src="<?php bloginfo('template_directory');?>/img/LISDER.png" alt="">
@@ -33,12 +33,14 @@
 				</h1>
 			</hgroup>
 			
-			<nav id="" class="large-10 columns" role="navigation">
+			<nav id="" class="large-10 small-12 columns" role="navigation">
 				<?php 
 				$defaults = array(
 					'menu'			  => 'menu-1',
 					'container'       => 'false',
-					'menu_class'      => 'inline-list menu',
+					'menu_class'      => 'inline-list menu right',
+					'menu_id'		  => 'menue',
+					'items_wrap' 	  => '<ul id="%1$s" class="%2$s">%3$s</ul>',
 					'echo'            => true,
 					'before'          => '',
 					'after'           => '',

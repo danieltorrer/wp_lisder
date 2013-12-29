@@ -15,7 +15,12 @@ get_header();
 <div class="row proyectos">
 	
 	<?php 
+
+	$paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
+
 	$args = array(
+		'posts_per_page' => 4,
+		'paged' => $paged,
 		'post_type' => 'entrada'
 		);
 
@@ -24,14 +29,14 @@ get_header();
 	<?php if( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); 
 	?>
 	<div class="large-6 columns">
-		<div class="entrada">
-			<div class="entrada-bg">
+		<div class="proyecto">
+			<div class="proyecto-bg">
 				<?php $url = wp_get_attachment_image_src( get_post_thumbnail_id(),'proyectos' ); ?>
 				<img src="<?php echo $url[0]?>" alt="">
 			</div>
-			<div class="entrada-content">
+			<div class="proyecto-content">
 				<h4> <a href="<?php the_permalink() ?>"><?php the_title()?></a> </h4>
-				<div class="resumen"><?php the_excerpt() ?></div>
+				<?php the_excerpt() ?>
 			</div>
 		</div>
 	</div>
@@ -44,8 +49,26 @@ get_header();
 
 </div>
 
+<div class="row">
+	<div class="large-12 columns">
+		<div class="paginas">
+			<?php
+			$big = 999999999;
+
+			echo paginate_links( array(
+				'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+				'format' => '?paged=%#%',
+				'current' => max( 1, get_query_var('paged') ),
+				'total' => $the_query->max_num_pages,
+				'prev_text'    => __('«'),
+				'next_text'    => __('»'),
+				));
+				?>
+			</div>
+		</div>
+	</div>
+</div>
+
 <?php 
 get_footer(); 
 ?>
-
-

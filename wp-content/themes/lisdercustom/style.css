@@ -41,6 +41,49 @@ header .site-title img{
 
 /* nav*/
 
+#menue{
+	margin-bottom: 0px;
+}
+
+.dropdown>.sub-menu{
+	display: none;
+	max-width: 120px;
+	position: absolute;
+	list-style: none !important;
+}
+
+.dropdown:hover>.sub-menu{
+	display: block;
+}
+
+.dropdown>.sub-menu, .dropdown>.sub-menu>.drop-item, .dropdown>.sub-menu>.drop-item>a{
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	box-sizing: border-box !important;
+	z-index: 100;
+}
+
+.dropdown>.sub-menu>.drop-item{
+	background: white;
+	min-height: 35px;
+	width: 100%;
+}
+
+.dropdown>.sub-menu>.drop-item>a{
+	color: black;
+	display: block;
+	padding: 10px 0;
+	height: 100%;
+	background: white;
+	box-sizing: border-box !important;
+}
+
+.dropdown>.sub-menu>.drop-item>a:hover{
+	background: #53A3FF;
+	color: white;
+}
+
 #menu-menu-1{
 	margin-bottom: 0px;
 	height:90px;
@@ -68,8 +111,22 @@ header .site-title img{
 	color: #fff;
 }
 
+.current-menu-item>a{
+	background: #53a3bb;
+	color: #fff;
+}
+
 #menu-menu-1 li{
 	float: right;
+}
+
+.icons{
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 75%;
+	left: 30px;
+	color: white;
+	padding: 10px 10px 0 10px;
 }
 
 /*footer*/
@@ -196,6 +253,7 @@ footer .copyright{
 
 .proyecto-content a{
 	margin-top: 20%;
+	color: white;
 }
 
 .proyecto-content h4{
@@ -243,20 +301,47 @@ footer .copyright{
 	width: 100%;
 }
 
-.integrantes{
-	margin-top: 20px;
-}
-
 .integrante{
-	margin-top: 15px;
-}
-
-.integrante .large-4{
-	text-align: center;
-}
-
-.integrante:last-child{
 	margin-bottom: 30px;
+}
+
+.integrante>.imagen{
+	height: 210px;
+}
+
+.integrante>.imagen>img{
+	max-height: 220px;
+}
+
+.integrante .pie{
+	min-height: 60px;
+	color: white;
+	background: #53A3FF;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.integrante>.pie>.row, .integrante>.pie>.row>.large-9{
+	min-height: 60px;
+}
+
+.integrante>.pie>.row>.large-9{
+	display: table;
+}
+
+.integrante>.pie>.row>.large-9>p{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.integrante>.pie p{
+	font: 1.1em/1.2em 'EB Garamond',serif !important;
+	margin: 7px 5px 5px 5px;
+}
+
+.integrante>.pie img{
+	margin: 5px;
 }
 
 .publicacion-tax .wp-tag-cloud li a, .show-all li a{
