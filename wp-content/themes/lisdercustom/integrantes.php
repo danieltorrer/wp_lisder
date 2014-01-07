@@ -28,8 +28,8 @@ get_header();
 
 			<div class="integrante large-3 columns">
 				<div class="imagen">
-					<!--<?php the_post_thumbnail() ?>-->
-					<img src="http://placehold.it/220x210" alt="">
+					<?php the_post_thumbnail("proyectos_square") ?>
+					<!--<img src="http://placehold.it/220x210" alt="">-->
 				</div>
 				<div class="pie">
 					<div class="row collapse">
@@ -38,7 +38,9 @@ get_header();
 						</div>
 
 						<div class="large-3 columns">
-							<img src="http://www.placehold.it/30x30" class="right" alt="">
+							<a href="<?php echo get("cv") ?>">
+								<img src="<?php bloginfo('template_directory');?>/img/contract_w.png" class="right" alt="Curriculum">
+							</a>
 						</div>
 					</div>
 				</div>

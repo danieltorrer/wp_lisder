@@ -95,7 +95,13 @@ get_header();
 							?>
 							<li>
 								<a href="<?php echo get_permalink($recent['ID']); ?>"> <?php echo get_the_post_thumbnail( $recent["ID"], "thumbnail", ""); ?> </a>
-								<div class=""><?php echo $recent["post_title"]; ?></div>
+								<div class="descripcion">
+									<p>
+										<a href="<?php echo get_permalink($recent['ID']); ?>">
+											<?php echo $recent["post_title"]; ?>
+										</a>
+									</p>
+								</div>
 							</li>
 							<?php
 						}
