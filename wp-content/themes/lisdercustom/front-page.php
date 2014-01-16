@@ -17,25 +17,25 @@ get_header();
 		<div class="middle-content">
 			<div class="row">
 				<div class="large-8 columns">
-					<h4>Utimas noticias</h4>
+					<!-- <h4>Utimas noticias</h4> -->
 					<div class="slideshow-wrapper">
 						<div class="preloader"></div>
 						<ul data-orbit>
 							<?php
-							
+
 							$args = array(
 								'numberposts' => 5,
 								'orderby' => 'post_date',
 								'order' => 'DESC',
 								'post_type' => 'entrada'
 								);
-							
+
 							$recent_posts = wp_get_recent_posts( $args );
 							foreach( $recent_posts as $recent ){
 								?>
 								<li>
 									<a href="<?php echo get_permalink($recent['ID']); ?>"> <?php echo get_the_post_thumbnail( $recent["ID"], "entrada", ""); ?> </a>
-									
+
 									<div class="orbit-caption">
 										<a href="<?php echo get_permalink($recent['ID']); ?>">
 											<?php echo $recent["post_title"]; ?>
@@ -45,14 +45,14 @@ get_header();
 								<?php
 							}
 							?>
-							
+
 						</ul>
 					</div>
 				</div>
-				
+
 				<div class="large-4 columns">
-					<h4>Utimas publicaciones</h4>
-					
+					<!-- <h4>Utimas publicaciones</h4> -->
+
 					<?php
 					$args = array(
 						'numberposts' => 5,
@@ -60,7 +60,7 @@ get_header();
 						'order' => 'DESC',
 						'post_type' => 'publicacion'
 						);
-					
+
 					$recent_posts = wp_get_recent_posts( $args );
 					foreach( $recent_posts as $recent ){
 						?>
@@ -70,7 +70,7 @@ get_header();
 								<p><?php echo $recent["post_title"]; ?></p>
 							</a>
 						</li>
-						
+
 						<?php
 					}
 					?>
@@ -79,17 +79,17 @@ get_header();
 			<div class="row">
 
 				<div class="large-12 columns large-centered">
-					<hr>
+
 					<ul class="inline-list proyectos-mini">
 						<?php
-						
+
 						$args = array(
 							'numberposts' => 6,
 							'orderby' => 'post_date',
 							'order' => 'DESC',
 							'post_type' => 'proyecto'
 							);
-						
+
 						$recent_posts = wp_get_recent_posts( $args );
 						foreach( $recent_posts as $recent ){
 							?>

@@ -124,7 +124,7 @@ header .site-title img{
 	background: rgba(0,0,0,0.7);
 	position: absolute;
 	top: 75%;
-	left: 30px;
+	right: 30px;
 	color: white;
 	padding: 10px 10px 0 10px;
 }
@@ -306,7 +306,7 @@ footer .copyright{
 }
 
 .integrante>.imagen{
-	height: 210px;
+	max-height: 210px;
 }
 
 .integrante>.imagen>img{
@@ -332,6 +332,7 @@ footer .copyright{
 .integrante>.pie>.row>.large-9>p{
 	display: table-cell;
 	vertical-align: middle;
+	padding-top: 5px;
 }
 
 
@@ -432,6 +433,18 @@ footer .copyright{
 .proyect-container{
 	min-height: calc(100% - 90px - 249px);
 }
+
+.integrantes>.row>div.orbit-container{
+	//background: white !important;
+	margin-bottom: 20px;
+}
+
+#slider-integrantes{
+	height: 270px !important;
+	margin: 20px 0;
+	//background: white; 
+}
+
 /*********/
 
 .isotope-item {
