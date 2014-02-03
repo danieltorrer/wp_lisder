@@ -25,7 +25,7 @@
 
 <body style="height: 100%;">
 	<header id="header">
-		<div class="row" role="banner">
+		<div class="row collapse" role="banner">
 			<hgroup class="large-2 small-4 small-centered large-uncentered columns">
 				<h1 class="site-title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
@@ -34,7 +34,7 @@
 				</h1>
 			</hgroup>
 			
-			<nav id="" class="large-10 small-12 columns" role="navigation">
+			<nav id="" class="large-8 small-12 columns" role="navigation">
 				<?php 
 				$defaults = array(
 					'menu'			  => 'menu-1',
@@ -51,6 +51,11 @@
 				wp_nav_menu( $defaults ); 
 				?>
 			</nav>
+
+			<div class="social large-2 columns">
+				<a href="https://twitter.com/LISDERFCC"><img src="<?php bloginfo('template_directory');?>/img/some_b.png" alt=""></a>
+				<a href="https://www.facebook.com/LISDER"><img src="<?php bloginfo('template_directory');?>/img/fb1.png" alt=""></a>
+			</div>
 		</div>
 	</header>
 

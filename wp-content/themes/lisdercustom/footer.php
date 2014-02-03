@@ -1,5 +1,5 @@
 	<!--</div><!-- #main .wrapper -->
-	<footer role="contentinfo" id="footer">
+	<!--<footer role="contentinfo" id="footer">
 		<div class="row">
 			<div class="large-12 columns">
 				<div>
@@ -19,7 +19,7 @@
 			</div>
 		</div>
 
-	</footer><!-- #colophon -->
+	</footer> -->
 
 	<script src="<?php bloginfo('template_directory');?>/js/vendor/jquery.js"></script>
 	<script src="<?php bloginfo('template_directory');?>/js/foundation.min.js"></script>
@@ -95,15 +95,17 @@
  			?>
 
  			map.addMarker({
- 				lat: <?php echo get_field('latitud')[1] ?>,
- 				lng: <?php echo get_field('longitud')[1] ?>,
+
+ 				lat: <?php echo get('latitud') ?>,
+
+ 				lng: <?php echo get('longitud') ?>,
+
  				title: '<?php the_title()?>',
  				icon: "<?php bloginfo('template_directory');?>/img/pin_2b.png" ,
  				infoWindow: {
- 					content: '<h6><?php echo get_field("pais")[1] ?></h6> <p><a href=" <?php the_permalink() ?> "><?php the_title()?></a></p>'
+ 					content: '<h6><?php echo get("pais") ?></h6> <p><a href=" <?php the_permalink() ?> "><?php the_title()?></a></p>'
  				}
  			});
-
 
  			<?php endwhile; else: 
  			?>
@@ -122,15 +124,14 @@
  			?>
 
  			map.addMarker({
- 				lat: <?php echo get_field('latitud')[1] ?>,
- 				lng: <?php echo get_field('longitud')[1] ?>,
+ 				lat: <?php echo get('latitud') ?>,
+ 				lng: <?php echo get('longitud') ?>,
  				title: '<?php the_title()?>',
  				icon: "<?php bloginfo('template_directory');?>/img/pin_1b.png" ,
  				infoWindow: {
- 					content: '<h6><?php echo get_field("pais")[1] ?></h6> <p><a href="<?php echo get_site_url(); ?>/investigacion#id<?php the_id()?>"><?php the_title()?></a></p>'
+ 					content: '<h6><?php echo get("pais") ?></h6> <p><a href="<?php echo get_site_url(); ?>/investigacion#id<?php the_id()?>"><?php the_title()?></a></p>'
  				}
  			});
-
 
  			<?php endwhile; else: 
  			?>

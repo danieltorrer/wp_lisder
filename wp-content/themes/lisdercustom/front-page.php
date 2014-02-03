@@ -12,6 +12,18 @@ get_header();
 	</p>
 </div>
 
+<div class="text">
+	<div class="middle-parent">
+		<div class="middle-content">
+			<div class="row">
+				<div class="large-12 columns">
+					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, ex velit a obcaecati voluptates voluptatibus facilis architecto laboriosam dolores itaque voluptas enim impedit beatae quo labore rem porro magnam? Incidunt.</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div id="feed">
 	<div class="middle-parent">
 		<div class="middle-content">
@@ -79,7 +91,7 @@ get_header();
 			<div class="row">
 
 				<div class="large-12 columns large-centered">
-
+					<hr>
 					<ul class="inline-list proyectos-mini">
 						<?php
 

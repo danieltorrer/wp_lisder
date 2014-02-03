@@ -12,10 +12,10 @@ function scrollPanel(e){
 }
 
 function getSizeScroll(){
-	if ((window.innerHeight + window.scrollY) >= $(document).height()) {
-		scrollSize = 249;
-	}
-	else{
+	//if ((window.innerHeight + window.scrollY) >= $(document).height()) {
+	//	scrollSize = 249;
+	//}
+	//else{
 		scrollSize = height;
-	}
+	//}
 }
