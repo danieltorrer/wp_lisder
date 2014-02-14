@@ -30,11 +30,11 @@ get_header();
 
 			<br><br>
 
-			<h5>Revistas</h5>
+			<!--<h5>Revistas</h5>
 			<ul class="show-all">
 				<li ><a href="#" data-filter="*">Todas</a></li>
 			</ul>
-			<?php wp_tag_cloud( array( 'taxonomy' => 'revista', format => 'list' ) ); ?>
+			<?php wp_tag_cloud( array( 'taxonomy' => 'revista', format => 'list' ) ); ?>-->
 		</div>
 
 		<div class="large-9 columns isotope-container">
@@ -59,8 +59,6 @@ get_header();
 			?>
 		</div>
 	</div></div>
-
-
 
 
 	<?php 

@@ -11,7 +11,6 @@ get_header();
 <div id="publicacion-container" class="row">
 	<div class="large-12 columns">
 		<h3>Integrantes</h3>
-		<h6 class="subheader text-justify ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, consequatur aspernatur ipsa quibusdam ex inventore doloribus ullam odit. Veniam, earum ullam cumque amet libero ducimus obcaecati expedita magnam consequatur modi.</h6>
 	</div>
 
 	<div class="large-12 columns integrantes">
